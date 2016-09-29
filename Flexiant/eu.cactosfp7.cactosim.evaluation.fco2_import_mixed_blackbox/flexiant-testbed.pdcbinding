@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<binding:PowerModelBindingRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:binding="http://www.cactosfp7.eu/PhysicalDCModel/Power/Binding/1.0">
+  <powerModelBindings id="_Lj2YwOn7EeWDO84ZsNy36w" name="10.157.128.30">
+    <powerModel href="flexiant-testbed.pdcspec#_LjyHUOn7EeWDO84ZsNy36w"/>
+    <fixedFactorValues id="_Lj3m4On7EeWDO84ZsNy36w" name="minConsumption" value="213.62931315184596W">
+      <boundFactor href="flexiant-testbed.pdcspec#_LjzVcOn7EeWDO84ZsNy36w"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_Lj4N8On7EeWDO84ZsNy36w" name="maxConsumption" value="378.78409731980446W">
+      <boundFactor href="flexiant-testbed.pdcspec#_LjzVcen7EeWDO84ZsNy36w"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_Lj2YwOn7EeWDO84ZsNy36w1" name="10.157.128.31">
+    <powerModel href="flexiant-testbed.pdcspec#_LjyHUOn7EeWDO84ZsNy36w"/>
+    <fixedFactorValues id="_Lj3m4On7EeWDO84ZsNy36w" name="minConsumption" value="0.0W">
+      <boundFactor href="flexiant-testbed.pdcspec#_LjzVcOn7EeWDO84ZsNy36w"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_Lj4N8On7EeWDO84ZsNy36w" name="maxConsumption" value="0.0W">
+      <boundFactor href="flexiant-testbed.pdcspec#_LjzVcen7EeWDO84ZsNy36w"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_Lj2YwOn7EeWDO84ZsNy36w2" name="10.157.128.32">
+    <powerModel href="flexiant-testbed.pdcspec#_LjyHUOn7EeWDO84ZsNy36w"/>
+    <fixedFactorValues id="_Lj3m4On7EeWDO84ZsNy36w" name="minConsumption" value="201.86801803911436W">
+      <boundFactor href="flexiant-testbed.pdcspec#_LjzVcOn7EeWDO84ZsNy36w"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_Lj4N8On7EeWDO84ZsNy36w" name="maxConsumption" value="350.85812790464524W">
+      <boundFactor href="flexiant-testbed.pdcspec#_LjzVcen7EeWDO84ZsNy36w"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+</binding:PowerModelBindingRepository>
