@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<hypervisor:HypervisorRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:hypervisor="http://www.cactosfp7.eu/LogicalDCModel/Hypervisor/1.0" id="_ciFr4GYYEeaikf-sSE8xIg">
-  <hypervisorTypes id="_c5BlMGYYEeaikf-sSE8xIg" name="kvm"/>
-</hypervisor:HypervisorRepository>
