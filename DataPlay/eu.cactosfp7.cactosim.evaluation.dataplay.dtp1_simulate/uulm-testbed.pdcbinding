@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binding:PowerModelBindingRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:binding="http://www.cactosfp7.eu/PhysicalDCModel/Power/Binding/1.0">
+  <powerModelBindings id="_eztw8H_aEeaa6LDPTXwFbw" name="Linear Power Model Binding Computenode05">
+    <powerModel href="uulm-testbed.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="96.59241367466615">
+      <boundFactor href="uulm-testbed.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1236.482859150644">
+      <boundFactor href="uulm-testbed.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_fSKngH_aEeaa6LDPTXwFbw" name="Linear Power Model Binding Computenode08">
+    <powerModel href="uulm-testbed.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="76.71152086871899">
+      <boundFactor href="uulm-testbed.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1069.5232418995633">
+      <boundFactor href="uulm-testbed.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_gOXKAH_aEeaa6LDPTXwFbw" name="Linear Power Model Binding Computenode11">
+    <powerModel href="uulm-testbed.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="98.85931738440328">
+      <boundFactor href="uulm-testbed.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1489.6227610766186">
+      <boundFactor href="uulm-testbed.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_f-MAAH_aEeaa6LDPTXwFbw" name="Linear Power Model Binding Computenode12">
+    <powerModel href="uulm-testbed.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="108.43403771885244">
+      <boundFactor href="uulm-testbed.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1043.2064663373785">
+      <boundFactor href="uulm-testbed.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_ftFo8H_aEeaa6LDPTXwFbw" name="Linear Power Model Binding Computenode14">
+    <powerModel href="uulm-testbed.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="70.16028052392113">
+      <boundFactor href="uulm-testbed.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1038.3326567224071">
+      <boundFactor href="uulm-testbed.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_fSKngH_aEeaa6LDPTXwFbw" name="Linear Power Model Binding Computenode15">
+    <powerModel href="uulm-testbed.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="97.65568677735257">
+      <boundFactor href="uulm-testbed.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1253.2961792562178">
+      <boundFactor href="uulm-testbed.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+</binding:PowerModelBindingRepository>

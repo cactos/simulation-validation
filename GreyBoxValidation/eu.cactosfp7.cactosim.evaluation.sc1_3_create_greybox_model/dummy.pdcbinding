@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binding:PowerModelBindingRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:binding="http://www.cactosfp7.eu/PhysicalDCModel/Power/Binding/1.0">
+  <powerModelBindings id="_JHDwEGoJEeak6YrYQno6aw" name="NullPowerModelBinding">
+    <powerModel href="dummy.pdcspec#_6RDlIGoIEeak6YrYQno6aw"/>
+  </powerModelBindings>
+  <powerModelBindings id="_h5ShUGoOEeak6YrYQno6aw" name="Linear Power Model Binding">
+    <powerModel href="dummy.pdcspec#_DVqm8GoOEeak6YrYQno6aw"/>
+    <fixedFactorValues id="_Y0UnQGoWEeafUKetgV1P8A" name="minConsumption" value="97.65568677735257">
+      <boundFactor href="dummy.pdcspec#_KglVgGoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_cD13QGoWEeafUKetgV1P8A" name="maxConsumption" value="1253.2961792562178">
+      <boundFactor href="dummy.pdcspec#_KKDE0GoOEeak6YrYQno6aw"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+</binding:PowerModelBindingRepository>

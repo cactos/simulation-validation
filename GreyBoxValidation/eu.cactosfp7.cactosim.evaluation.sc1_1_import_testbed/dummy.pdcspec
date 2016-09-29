@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification:PowerModelRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:specification="http://www.cactosfp7.eu/PhysicalDCModel/Power/Specification/1.0" id="_2bUpsGoIEeak6YrYQno6aw" name="NullPowerModelRepository">
+  <powerModels id="_6RDlIGoIEeak6YrYQno6aw" name="NullPowerModel" expression="0"/>
+</specification:PowerModelRepository>

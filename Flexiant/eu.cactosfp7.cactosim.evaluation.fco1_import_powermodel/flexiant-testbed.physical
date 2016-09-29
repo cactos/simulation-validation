@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:PhysicalDCModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.cactosfp7.eu/PhysicalDCModel/Core/1.0" id="_ENKe0HXDEea428Y7BDZmHg">
+  <racks id="_ElsTkHXDEea428Y7BDZmHg" name="rack01" powerSupplies="_Eq0EIHXDEea428Y7BDZmHg _Eq15UHXDEea428Y7BDZmHg _ErDUsHXDEea428Y7BDZmHg _ErFJ4HXDEea428Y7BDZmHg">
+    <nodes xsi:type="core:ComputeNode" id="_EpDJkHXDEea428Y7BDZmHg" name="10.157.128.30" powerProvidingEntities="_Eq0EIHXDEea428Y7BDZmHg _Eq15UHXDEea428Y7BDZmHg" powerConsumingEntities="_EpEXsHXDEea428Y7BDZmHg _EpJ3QHXDEea428Y7BDZmHg _EpQk8HXDEea428Y7BDZmHg" networkInterconnects="_ElvW4HXDEea428Y7BDZmHg">
+      <cpuSpecifications id="_EpEXsHXDEea428Y7BDZmHg" name="10.157.128.30" powerProvidingEntities="_EpDJkHXDEea428Y7BDZmHg" frequency="1799.9499999999998MHz" numberOfCores="32">
+        <powerModelBinding href="flexiant-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w"/>
+        <architectureType href="flexiant-testbed.architecturetype#_ElqeYHXDEea428Y7BDZmHg"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_EpQk8HXDEea428Y7BDZmHg" name="10.157.128.30" powerProvidingEntities="_EpDJkHXDEea428Y7BDZmHg">
+        <readBandwidth value="30.0MB/s"/>
+        <writeBandwidth value="30.0MB/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_EpJ3QHXDEea428Y7BDZmHg" name="10.157.128.30" powerProvidingEntities="_EpDJkHXDEea428Y7BDZmHg" size="128911.0MB"/>
+      <hypervisor href="flexiant-testbed.logical#_EpXSoHXDEea428Y7BDZmHg"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_EpMTgnXDEea428Y7BDZmHg" name="10.157.128.31" powerConsumingEntities="_EpM6kHXDEea428Y7BDZmHg _EpM6k3XDEea428Y7BDZmHg _EpToQHXDEea428Y7BDZmHg" networkInterconnects="_EpMTgXXDEea428Y7BDZmHg">
+      <cpuSpecifications id="_EpM6kHXDEea428Y7BDZmHg" name="10.157.128.31" powerProvidingEntities="_EpMTgnXDEea428Y7BDZmHg" frequency="2600.2109999999993MHz" numberOfCores="16">
+        <powerModelBinding href="flexiant-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w1"/>
+        <architectureType href="flexiant-testbed.architecturetype#_ElqeYHXDEea428Y7BDZmHg"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_EpToQHXDEea428Y7BDZmHg" name="10.157.128.31" powerProvidingEntities="_EpMTgnXDEea428Y7BDZmHg">
+        <readBandwidth value="30.0MB/s"/>
+        <writeBandwidth value="30.0MB/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_EpM6k3XDEea428Y7BDZmHg" name="10.157.128.31" powerProvidingEntities="_EpMTgnXDEea428Y7BDZmHg" size="64334.0MB"/>
+      <hypervisor href="flexiant-testbed.logical#_EpXSoXXDEea428Y7BDZmHg"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_EpNhpHXDEea428Y7BDZmHg" name="10.157.128.32" powerProvidingEntities="_ErDUsHXDEea428Y7BDZmHg _ErFJ4HXDEea428Y7BDZmHg" powerConsumingEntities="_EpOIsHXDEea428Y7BDZmHg _EpOvwXXDEea428Y7BDZmHg _EpUPUHXDEea428Y7BDZmHg" networkInterconnects="_EpNho3XDEea428Y7BDZmHg">
+      <cpuSpecifications id="_EpOIsHXDEea428Y7BDZmHg" name="10.157.128.32" powerProvidingEntities="_EpNhpHXDEea428Y7BDZmHg" frequency="1799.8869999999997MHz" numberOfCores="32">
+        <powerModelBinding href="flexiant-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w2"/>
+        <architectureType href="flexiant-testbed.architecturetype#_ElqeYHXDEea428Y7BDZmHg"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_EpUPUHXDEea428Y7BDZmHg" name="10.157.128.32" powerProvidingEntities="_EpNhpHXDEea428Y7BDZmHg">
+        <readBandwidth value="30.0MB/s"/>
+        <writeBandwidth value="30.0MB/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_EpOvwXXDEea428Y7BDZmHg" name="10.157.128.32" powerProvidingEntities="_EpNhpHXDEea428Y7BDZmHg" size="128911.0MB"/>
+      <hypervisor href="flexiant-testbed.logical#_EpX5sHXDEea428Y7BDZmHg"/>
+    </nodes>
+  </racks>
+  <powerSupplies id="_Eq0EIHXDEea428Y7BDZmHg" name="10157128300" powerConsumingEntities="_EpDJkHXDEea428Y7BDZmHg" suppliablePeakPower="700.0W" hostedIn="_ElsTkHXDEea428Y7BDZmHg"/>
+  <powerSupplies id="_Eq15UHXDEea428Y7BDZmHg" name="10157128301" powerConsumingEntities="_EpDJkHXDEea428Y7BDZmHg" suppliablePeakPower="700.0W" hostedIn="_ElsTkHXDEea428Y7BDZmHg"/>
+  <powerSupplies id="_ErDUsHXDEea428Y7BDZmHg" name="10157128320" powerConsumingEntities="_EpNhpHXDEea428Y7BDZmHg" suppliablePeakPower="700.0W" hostedIn="_ElsTkHXDEea428Y7BDZmHg"/>
+  <powerSupplies id="_ErFJ4HXDEea428Y7BDZmHg" name="10157128321" powerConsumingEntities="_EpNhpHXDEea428Y7BDZmHg" suppliablePeakPower="700.0W" hostedIn="_ElsTkHXDEea428Y7BDZmHg"/>
+  <networkInterconnects id="_ElvW4HXDEea428Y7BDZmHg" name="10.157.128.30" connectedEntities="_EpDJkHXDEea428Y7BDZmHg">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_EpMTgXXDEea428Y7BDZmHg" name="10.157.128.31" connectedEntities="_EpMTgnXDEea428Y7BDZmHg">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_EpNho3XDEea428Y7BDZmHg" name="10.157.128.32" connectedEntities="_EpNhpHXDEea428Y7BDZmHg">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+</core:PhysicalDCModel>

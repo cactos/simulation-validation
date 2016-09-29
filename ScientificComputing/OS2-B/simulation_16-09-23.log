@@ -1,0 +1,767 @@
+[Worker-13 ] INFO : Create workflow configuration
+[Worker-13 ] INFO : Validating workflow configuration
+[Worker-13 ] INFO : Creating workflow engine
+[Worker-13 ] INFO : Executing workflow
+[Worker-13 ] INFO : Creating workflow engine and starting workflow
+[Worker-13 ] INFO : Task Closing 'org.palladiosimulator.temporary'. completed in 7.64645E-4 seconds
+[Worker-13 ] INFO : Task completed in 0.042989877 seconds
+[Worker-13 ] INFO : Task completed in 0.132070057 seconds
+[Worker-13 ] INFO : Task Create. completed in 0.031873902 seconds
+[Worker-13 ] INFO : Task Opening 'org.palladiosimulator.temporary'. completed in 0.027778688 seconds
+[Worker-13 ] INFO : Transforming Physical Data Centre Model - PhysicalNetwork.
+[Worker-13 ] INFO : Transformation of Physical Data Centre Model finished.
+[Worker-13 ] INFO : Executing transformation from CACTOS Infrastructure Models to Palladio Models.
+[Worker-13 ] INFO : Transforming Physical Data Centre Model.
+[Worker-13 ] INFO : Mapping Rack to ResourceContainers.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Mapping AbstractNode to ResourceContainer.
+[Worker-13 ] INFO : Transformation of Physical Data Centre Model finished.
+[Worker-13 ] INFO : Transforming Logical Data Centre Model.
+[Worker-13 ] INFO : logicalDCModelToRepository
+[Worker-13 ] INFO : Transformation of Logical Data Centre Model finished.
+[Worker-13 ] INFO : Finished transformation from CACTOS Infrastructure Models to Palladio Models.
+[Worker-13 ] INFO : Task Sequential Job Execution completed in 0.154808086 seconds
+[Worker-13 ] INFO : Start job: org.palladiosimulator.simulizar.launcher.jobs.PCMStartInterpretationJob@6c0c7e8e
+[Worker-13 ] INFO : Initialise Simulizar runtime state
+[Worker-13 ] INFO : Starting simulation...
+[Thread-8  ] INFO : Update Measurement Correspondences
+[Thread-9  ] INFO : Start enacting of Optimisation Plan at simulation time: 60.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 60.001999999
+[Thread-11 ] INFO : VM Placement started at simulation time: 60.001999999
+[Thread-11 ] INFO : Placing VM VirtualMachine[TRANSIENT] (_zpNk8IGiEeaUlrKMHGZorQ) on Hypervisor computenode11 (_C7phlntGEeaXtvEJ2qEv9w)
+[Thread-11 ] INFO : VM Placement finished at simulation time: 60.001999999
+[Thread-11 ] INFO : VM Start Action started processing at simulation time: 60.001999999
+[Thread-12 ] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-12 ] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-11 ] INFO : VM Start Action finished processing at simulation time: 60.001999999
+[Thread-10 ] INFO : Action executed properly
+[Thread-74 ] INFO : Start enacting of Optimisation Plan at simulation time: 120.0
+[Thread-135] INFO : Start enacting of Optimisation Plan at simulation time: 180.0
+[Thread-196] INFO : Start enacting of Optimisation Plan at simulation time: 240.0
+[Thread-257] INFO : Start enacting of Optimisation Plan at simulation time: 300.0
+[Thread-318] INFO : Start enacting of Optimisation Plan at simulation time: 360.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 383.577
+[Thread-344] INFO : VM Placement started at simulation time: 383.577
+[Thread-344] INFO : Placing VM VirtualMachine[TRANSIENT] (_4AThAIGiEeaUlrKMHGZorQ) on Hypervisor computenode02 (_C7phk3tGEeaXtvEJ2qEv9w)
+[Thread-344] INFO : VM Placement finished at simulation time: 383.577
+[Thread-344] INFO : VM Start Action started processing at simulation time: 383.577
+[Thread-345] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-345] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-344] INFO : VM Start Action finished processing at simulation time: 383.577
+[Thread-343] INFO : Action executed properly
+[Thread-420] INFO : Start enacting of Optimisation Plan at simulation time: 420.0
+[Thread-541] INFO : Start enacting of Optimisation Plan at simulation time: 480.0
+[Thread-662] INFO : Start enacting of Optimisation Plan at simulation time: 540.0
+[Thread-783] INFO : Start enacting of Optimisation Plan at simulation time: 600.0
+[Thread-904] INFO : Start enacting of Optimisation Plan at simulation time: 660.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 699.157999999
+[Thread-985] INFO : VM Placement started at simulation time: 699.157999999
+[Thread-985] INFO : Placing VM VirtualMachine[TRANSIENT] (_97POYIGiEeaUlrKMHGZorQ) on Hypervisor computenode12 (_C7phl3tGEeaXtvEJ2qEv9w)
+[Thread-985] INFO : VM Placement finished at simulation time: 699.157999999
+[Thread-985] INFO : VM Start Action started processing at simulation time: 699.157999999
+[Thread-986] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-986] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-985] INFO : VM Start Action finished processing at simulation time: 699.157999999
+[Thread-984] INFO : Action executed properly
+[Thread-1050] INFO : Start enacting of Optimisation Plan at simulation time: 720.0
+[Thread-1231] INFO : Start enacting of Optimisation Plan at simulation time: 780.0
+[Thread-1412] INFO : Start enacting of Optimisation Plan at simulation time: 840.0
+[Thread-1593] INFO : Start enacting of Optimisation Plan at simulation time: 900.0
+[Thread-1774] INFO : Start enacting of Optimisation Plan at simulation time: 960.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 1015.927999999
+[Thread-1944] INFO : VM Placement started at simulation time: 1015.927999999
+[Thread-1944] INFO : Placing VM VirtualMachine[TRANSIENT] (_H0vDEIGjEeaUlrKMHGZorQ) on Hypervisor computenode14 (_C7phmHtGEeaXtvEJ2qEv9w)
+[Thread-1944] INFO : VM Placement finished at simulation time: 1015.927999999
+[Thread-1944] INFO : VM Start Action started processing at simulation time: 1015.927999999
+[Thread-1945] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-1945] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-1944] INFO : VM Start Action finished processing at simulation time: 1015.927999999
+[Thread-1943] INFO : Action executed properly
+[Thread-1964] INFO : Start enacting of Optimisation Plan at simulation time: 1020.0
+[Thread-2205] INFO : Start enacting of Optimisation Plan at simulation time: 1080.0
+[Thread-2446] INFO : Start enacting of Optimisation Plan at simulation time: 1140.0
+[Thread-2687] INFO : Start enacting of Optimisation Plan at simulation time: 1200.0
+[Thread-2928] INFO : Start enacting of Optimisation Plan at simulation time: 1260.0
+[Thread-3169] INFO : Start enacting of Optimisation Plan at simulation time: 1320.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 1326.063999999
+[Thread-3196] INFO : VM Placement started at simulation time: 1326.063999999
+[Thread-3196] INFO : Placing VM VirtualMachine[TRANSIENT] (_R1ZPsIGjEeaUlrKMHGZorQ) on Hypervisor computenode15 (_C7phmXtGEeaXtvEJ2qEv9w)
+[Thread-3196] INFO : VM Placement finished at simulation time: 1326.063999999
+[Thread-3196] INFO : VM Start Action started processing at simulation time: 1326.063999999
+[Thread-3197] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-3197] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-3196] INFO : VM Start Action finished processing at simulation time: 1326.063999999
+[Thread-3195] INFO : Action executed properly
+[Thread-3468] INFO : Start enacting of Optimisation Plan at simulation time: 1380.0
+[Thread-3769] INFO : Start enacting of Optimisation Plan at simulation time: 1440.0
+[Thread-4070] INFO : Start enacting of Optimisation Plan at simulation time: 1500.0
+[Thread-4371] INFO : Start enacting of Optimisation Plan at simulation time: 1560.0
+[Thread-4672] INFO : Start enacting of Optimisation Plan at simulation time: 1620.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 1642.808
+[Thread-4788] INFO : VM Placement started at simulation time: 1642.808
+[Thread-4788] INFO : Placing VM VirtualMachine[TRANSIENT] (_cxnssIGjEeaUlrKMHGZorQ) on Hypervisor computenode05 (_C7phlHtGEeaXtvEJ2qEv9w)
+[Thread-4788] INFO : VM Placement finished at simulation time: 1642.808
+[Thread-4788] INFO : VM Start Action started processing at simulation time: 1642.808
+[Thread-4789] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-4789] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-4788] INFO : VM Start Action finished processing at simulation time: 1642.808
+[Thread-4787] INFO : Action executed properly
+[Thread-5015] INFO : Start enacting of Optimisation Plan at simulation time: 1680.0
+[Thread-5376] INFO : Start enacting of Optimisation Plan at simulation time: 1740.0
+[Thread-5737] INFO : Start enacting of Optimisation Plan at simulation time: 1800.0
+[Thread-6098] INFO : Start enacting of Optimisation Plan at simulation time: 1860.0
+[Thread-6459] INFO : Start enacting of Optimisation Plan at simulation time: 1920.0
+[Thread-6820] INFO : Start enacting of Optimisation Plan at simulation time: 1980.0
+[Thread-7181] INFO : Start enacting of Optimisation Plan at simulation time: 2040.0
+[Thread-7542] INFO : Start enacting of Optimisation Plan at simulation time: 2100.0
+[Thread-7903] INFO : Start enacting of Optimisation Plan at simulation time: 2160.0
+[Thread-8264] INFO : Start enacting of Optimisation Plan at simulation time: 2220.0
+[Thread-8625] INFO : Start enacting of Optimisation Plan at simulation time: 2280.0
+[Thread-8986] INFO : Start enacting of Optimisation Plan at simulation time: 2340.0
+[Thread-9347] INFO : Start enacting of Optimisation Plan at simulation time: 2400.0
+[Thread-9708] INFO : Start enacting of Optimisation Plan at simulation time: 2460.0
+[Thread-10069] INFO : Start enacting of Optimisation Plan at simulation time: 2520.0
+[Thread-10430] INFO : Start enacting of Optimisation Plan at simulation time: 2580.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 2603.624
+[Thread-10574] INFO : VM Placement started at simulation time: 2603.624
+[Thread-10574] INFO : Placing VM VirtualMachine[TRANSIENT] (_Ij8dAIGkEeaUlrKMHGZorQ) on Hypervisor computenode16 (_C7phmntGEeaXtvEJ2qEv9w)
+[Thread-10574] INFO : VM Placement finished at simulation time: 2603.624
+[Thread-10574] INFO : VM Start Action started processing at simulation time: 2603.624
+[Thread-10575] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-10575] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-10574] INFO : VM Start Action finished processing at simulation time: 2603.624
+[Thread-10573] INFO : Action executed properly
+[Thread-10832] INFO : Start enacting of Optimisation Plan at simulation time: 2640.0
+[Thread-11253] INFO : Start enacting of Optimisation Plan at simulation time: 2700.0
+[Thread-11674] INFO : Start enacting of Optimisation Plan at simulation time: 2760.0
+[Thread-12095] INFO : Start enacting of Optimisation Plan at simulation time: 2820.0
+[Thread-12516] INFO : Start enacting of Optimisation Plan at simulation time: 2880.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 2906.036999999
+[Thread-12701] INFO : VM Placement started at simulation time: 2906.036999999
+[Thread-12701] INFO : Placing VM VirtualMachine[TRANSIENT] (_Wy2LsIGkEeaUlrKMHGZorQ) on Hypervisor computenode08 (_C7phlXtGEeaXtvEJ2qEv9w)
+[Thread-12701] INFO : VM Placement finished at simulation time: 2906.036999999
+[Thread-12701] INFO : VM Start Action started processing at simulation time: 2906.036999999
+[Thread-12702] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-12702] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-12701] INFO : VM Start Action finished processing at simulation time: 2906.036999999
+[Thread-12700] INFO : Action executed properly
+[Thread-12975] INFO : Start enacting of Optimisation Plan at simulation time: 2940.0
+[Thread-13456] INFO : Start enacting of Optimisation Plan at simulation time: 3000.0
+[Thread-13937] INFO : Start enacting of Optimisation Plan at simulation time: 3060.0
+[Thread-14418] INFO : Start enacting of Optimisation Plan at simulation time: 3120.0
+[Thread-14899] INFO : Start enacting of Optimisation Plan at simulation time: 3180.0
+[Thread-15380] INFO : Start enacting of Optimisation Plan at simulation time: 3240.0
+[Thread-15861] INFO : Start enacting of Optimisation Plan at simulation time: 3300.0
+[Thread-16342] INFO : Start enacting of Optimisation Plan at simulation time: 3360.0
+[Thread-16823] INFO : Start enacting of Optimisation Plan at simulation time: 3420.0
+[Thread-17304] INFO : Start enacting of Optimisation Plan at simulation time: 3480.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 3509.005
+[Thread-17538] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_H0l5IIGjEeaUlrKMHGZorQ
+[Thread-17538] INFO : Terminate request was executed properly
+[Thread-17755] INFO : Start enacting of Optimisation Plan at simulation time: 3540.0
+[Thread-17755] INFO : VM Migration started at simulation time: 3540.0
+[Thread-17755] INFO : Starting migrateVM controller completion
+[Thread-17755] INFO : Adding controllers for VM migration
+[Thread-17755] INFO : Adding VM controllers
+[Thread-17755] INFO : Added VM controller: mappedmigrateVm
+[Thread-17756] INFO : Start executing the controller scenario ('migrateVm')!
+[Thread-17756] INFO : Execution of the controller scenario ('migrateVm') finished!
+[Thread-17755] INFO : Migrated VM: instance-00001e60-_Wy2LsIGkEeaUlrKMHGZorQfrom node: computenode08 to node: computenode14
+[Thread-17755] INFO : Migrate request was executed properly
+[Thread-17755] INFO : VM Migration finished at simulation time: 3541.786892877
+[Thread-18177] INFO : Start enacting of Optimisation Plan at simulation time: 3600.0
+[Thread-18598] INFO : Start enacting of Optimisation Plan at simulation time: 3660.0
+[Thread-19019] INFO : Start enacting of Optimisation Plan at simulation time: 3720.0
+[Thread-19440] INFO : Start enacting of Optimisation Plan at simulation time: 3780.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 3786.011999999
+[Thread-19484] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_R1UXMIGjEeaUlrKMHGZorQ
+[Thread-19484] INFO : Terminate request was executed properly
+[Thread-19808] INFO : Start enacting of Optimisation Plan at simulation time: 3840.0
+[Thread-20169] INFO : Start enacting of Optimisation Plan at simulation time: 3900.0
+[Thread-20530] INFO : Start enacting of Optimisation Plan at simulation time: 3960.0
+[Thread-20891] INFO : Start enacting of Optimisation Plan at simulation time: 4020.0
+[Thread-21252] INFO : Start enacting of Optimisation Plan at simulation time: 4080.0
+[Thread-21613] INFO : Start enacting of Optimisation Plan at simulation time: 4140.0
+[Thread-21974] INFO : Start enacting of Optimisation Plan at simulation time: 4200.0
+[Thread-22335] INFO : Start enacting of Optimisation Plan at simulation time: 4260.0
+[Thread-22696] INFO : Start enacting of Optimisation Plan at simulation time: 4320.0
+[Thread-23057] INFO : Start enacting of Optimisation Plan at simulation time: 4380.0
+[Thread-23418] INFO : Start enacting of Optimisation Plan at simulation time: 4440.0
+[Thread-23779] INFO : Start enacting of Optimisation Plan at simulation time: 4500.0
+[Thread-24140] INFO : Start enacting of Optimisation Plan at simulation time: 4560.0
+[Thread-24501] INFO : Start enacting of Optimisation Plan at simulation time: 4620.0
+[Thread-24862] INFO : Start enacting of Optimisation Plan at simulation time: 4680.0
+[Thread-25223] INFO : Start enacting of Optimisation Plan at simulation time: 4740.0
+[Thread-25584] INFO : Start enacting of Optimisation Plan at simulation time: 4800.0
+[Thread-25945] INFO : Start enacting of Optimisation Plan at simulation time: 4860.0
+[Thread-26306] INFO : Start enacting of Optimisation Plan at simulation time: 4920.0
+[Thread-26667] INFO : Start enacting of Optimisation Plan at simulation time: 4980.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 5033.646999999
+[Thread-26991] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_Ij4LkIGkEeaUlrKMHGZorQ
+[Thread-26991] INFO : Terminate request was executed properly
+[Thread-27023] INFO : Start enacting of Optimisation Plan at simulation time: 5040.0
+[Thread-27324] INFO : Start enacting of Optimisation Plan at simulation time: 5100.0
+[Thread-27625] INFO : Start enacting of Optimisation Plan at simulation time: 5160.0
+[Thread-27926] INFO : Start enacting of Optimisation Plan at simulation time: 5220.0
+[Thread-28227] INFO : Start enacting of Optimisation Plan at simulation time: 5280.0
+[Thread-28528] INFO : Start enacting of Optimisation Plan at simulation time: 5340.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 5355.975
+[Thread-28609] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_WyyhUIGkEeaUlrKMHGZorQ
+[Thread-28609] INFO : Terminate request was executed properly
+[Thread-28786] INFO : Start enacting of Optimisation Plan at simulation time: 5400.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 5439.030999999
+[Thread-28945] INFO : VM Placement started at simulation time: 5439.030999999
+[Thread-28945] INFO : Placing VM VirtualMachine[TRANSIENT] (_QXPIQIGmEeaUlrKMHGZorQ) on Hypervisor computenode14 (_C7phmHtGEeaXtvEJ2qEv9w)
+[Thread-28945] INFO : VM Placement finished at simulation time: 5439.030999999
+[Thread-28945] INFO : VM Start Action started processing at simulation time: 5439.030999999
+[Thread-28946] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-28946] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-28945] INFO : VM Start Action finished processing at simulation time: 5439.030999999
+[Thread-28944] INFO : Action executed properly
+[Thread-29052] INFO : Start enacting of Optimisation Plan at simulation time: 5460.0
+[Thread-29353] INFO : Start enacting of Optimisation Plan at simulation time: 5520.0
+[Thread-29654] INFO : Start enacting of Optimisation Plan at simulation time: 5580.0
+[Thread-29955] INFO : Start enacting of Optimisation Plan at simulation time: 5640.0
+[Thread-30256] INFO : Start enacting of Optimisation Plan at simulation time: 5700.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 5745.927
+[Thread-30488] INFO : VM Placement started at simulation time: 5745.927
+[Thread-30488] INFO : Placing VM VirtualMachine[TRANSIENT] (_drE84IGmEeaUlrKMHGZorQ) on Hypervisor computenode15 (_C7phmXtGEeaXtvEJ2qEv9w)
+[Thread-30488] INFO : VM Placement finished at simulation time: 5745.927
+[Thread-30488] INFO : VM Start Action started processing at simulation time: 5745.927
+[Thread-30489] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-30489] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-30488] INFO : VM Start Action finished processing at simulation time: 5745.927
+[Thread-30487] INFO : Action executed properly
+[Thread-30576] INFO : Start enacting of Optimisation Plan at simulation time: 5760.0
+[Thread-30937] INFO : Start enacting of Optimisation Plan at simulation time: 5820.0
+[Thread-31298] INFO : Start enacting of Optimisation Plan at simulation time: 5880.0
+[Thread-31659] INFO : Start enacting of Optimisation Plan at simulation time: 5940.0
+[Thread-32020] INFO : Start enacting of Optimisation Plan at simulation time: 6000.0
+[Thread-32381] INFO : Start enacting of Optimisation Plan at simulation time: 6060.0
+[Thread-32742] INFO : Start enacting of Optimisation Plan at simulation time: 6120.0
+[Thread-33103] INFO : Start enacting of Optimisation Plan at simulation time: 6180.0
+[Thread-33464] INFO : Start enacting of Optimisation Plan at simulation time: 6240.0
+[Thread-33825] INFO : Start enacting of Optimisation Plan at simulation time: 6300.0
+[Thread-34186] INFO : Start enacting of Optimisation Plan at simulation time: 6360.0
+[Thread-34547] INFO : Start enacting of Optimisation Plan at simulation time: 6420.0
+[Thread-34908] INFO : Start enacting of Optimisation Plan at simulation time: 6480.0
+[Thread-35269] INFO : Start enacting of Optimisation Plan at simulation time: 6540.0
+[Thread-35630] INFO : Start enacting of Optimisation Plan at simulation time: 6600.0
+[Thread-35991] INFO : Start enacting of Optimisation Plan at simulation time: 6660.0
+[Thread-36352] INFO : Start enacting of Optimisation Plan at simulation time: 6720.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 6723.665999999
+[Thread-36376] INFO : VM Placement started at simulation time: 6723.665999999
+[Thread-36376] INFO : Placing VM VirtualMachine[TRANSIENT] (_NTyv8IGnEeaUlrKMHGZorQ) on Hypervisor computenode16 (_C7phmntGEeaXtvEJ2qEv9w)
+[Thread-36376] INFO : VM Placement finished at simulation time: 6723.665999999
+[Thread-36376] INFO : VM Start Action started processing at simulation time: 6723.665999999
+[Thread-36377] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-36377] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-36376] INFO : VM Start Action finished processing at simulation time: 6723.665999999
+[Thread-36375] INFO : Action executed properly
+[Thread-36774] INFO : Start enacting of Optimisation Plan at simulation time: 6780.0
+[Thread-37195] INFO : Start enacting of Optimisation Plan at simulation time: 6840.0
+[Thread-37616] INFO : Start enacting of Optimisation Plan at simulation time: 6900.0
+[Thread-38037] INFO : Start enacting of Optimisation Plan at simulation time: 6960.0
+[Thread-38458] INFO : Start enacting of Optimisation Plan at simulation time: 7020.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 7036.109
+[Thread-38574] INFO : VM Placement started at simulation time: 7036.109
+[Thread-38574] INFO : Placing VM VirtualMachine[TRANSIENT] (_c-0eYIGnEeaUlrKMHGZorQ) on Hypervisor computenode08 (_C7phlXtGEeaXtvEJ2qEv9w)
+[Thread-38574] INFO : VM Placement finished at simulation time: 7036.109
+[Thread-38574] INFO : VM Start Action started processing at simulation time: 7036.109
+[Thread-38575] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-38575] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-38574] INFO : VM Start Action finished processing at simulation time: 7036.109
+[Thread-38573] INFO : Action executed properly
+[Thread-38927] INFO : Start enacting of Optimisation Plan at simulation time: 7080.0
+[Thread-39408] INFO : Start enacting of Optimisation Plan at simulation time: 7140.0
+[Thread-39889] INFO : Start enacting of Optimisation Plan at simulation time: 7200.0
+[Thread-40370] INFO : Start enacting of Optimisation Plan at simulation time: 7260.0
+[Thread-40851] INFO : Start enacting of Optimisation Plan at simulation time: 7320.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 7359.052
+[Thread-41167] INFO : VM Placement started at simulation time: 7359.052
+[Thread-41167] INFO : Placing VM VirtualMachine[TRANSIENT] (_vEmYAIGnEeaUlrKMHGZorQ) on Hypervisor computenode14 (_C7phmHtGEeaXtvEJ2qEv9w)
+[Thread-41167] INFO : VM Placement finished at simulation time: 7359.052
+[Thread-41167] INFO : VM Start Action started processing at simulation time: 7359.052
+[Thread-41168] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-41168] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-41167] INFO : VM Start Action finished processing at simulation time: 7359.052
+[Thread-41166] INFO : Action executed properly
+[Thread-41357] INFO : Start enacting of Optimisation Plan at simulation time: 7380.0
+[Thread-41898] INFO : Start enacting of Optimisation Plan at simulation time: 7440.0
+[Thread-42439] INFO : Start enacting of Optimisation Plan at simulation time: 7500.0
+[Thread-42980] INFO : Start enacting of Optimisation Plan at simulation time: 7560.0
+[Thread-43521] INFO : Start enacting of Optimisation Plan at simulation time: 7620.0
+[Thread-44062] INFO : Start enacting of Optimisation Plan at simulation time: 7680.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 7696.203
+[Thread-44213] INFO : VM Placement started at simulation time: 7696.203
+[Thread-44213] INFO : Placing VM VirtualMachine[TRANSIENT] (_CYcnQIGoEeaUlrKMHGZorQ) on Hypervisor computenode15 (_C7phmXtGEeaXtvEJ2qEv9w)
+[Thread-44213] INFO : VM Placement finished at simulation time: 7696.203
+[Thread-44213] INFO : VM Start Action started processing at simulation time: 7696.203
+[Thread-44214] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-44214] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-44213] INFO : VM Start Action finished processing at simulation time: 7696.203
+[Thread-44212] INFO : Action executed properly
+[Thread-44651] INFO : Start enacting of Optimisation Plan at simulation time: 7740.0
+[Thread-45252] INFO : Start enacting of Optimisation Plan at simulation time: 7800.0
+[Thread-45853] INFO : Start enacting of Optimisation Plan at simulation time: 7860.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 7868.902
+[Thread-45943] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_QXME8IGmEeaUlrKMHGZorQ
+[Thread-45943] INFO : Terminate request was executed properly
+[Thread-46404] INFO : Start enacting of Optimisation Plan at simulation time: 7920.0
+[Thread-46945] INFO : Start enacting of Optimisation Plan at simulation time: 7980.0
+[Thread-8  ] INFO : Start execution of StartApplicationRequest at simulation time: 8013.671
+[Thread-47251] INFO : VM Placement started at simulation time: 8013.671
+[Thread-47251] INFO : Placing VM VirtualMachine[TRANSIENT] (_VJIfEIGoEeaUlrKMHGZorQ) on Hypervisor computenode14 (_C7phmHtGEeaXtvEJ2qEv9w)
+[Thread-47251] INFO : VM Placement finished at simulation time: 8013.671
+[Thread-47251] INFO : VM Start Action started processing at simulation time: 8013.671
+[Thread-47252] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-47252] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-47251] INFO : VM Start Action finished processing at simulation time: 8013.671
+[Thread-47250] INFO : Action executed properly
+[Thread-47517] INFO : Start enacting of Optimisation Plan at simulation time: 8040.0
+[Thread-48118] INFO : Start enacting of Optimisation Plan at simulation time: 8100.0
+[Thread-48719] INFO : Start enacting of Optimisation Plan at simulation time: 8160.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 8206.074
+[Thread-49182] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_drCgoIGmEeaUlrKMHGZorQ
+[Thread-49182] INFO : Terminate request was executed properly
+[Thread-49307] INFO : Start enacting of Optimisation Plan at simulation time: 8220.0
+[Thread-49848] INFO : Start enacting of Optimisation Plan at simulation time: 8280.0
+[Thread-50389] INFO : Start enacting of Optimisation Plan at simulation time: 8340.0
+[Thread-50930] INFO : Start enacting of Optimisation Plan at simulation time: 8400.0
+[Thread-51471] INFO : Start enacting of Optimisation Plan at simulation time: 8460.0
+[Thread-52012] INFO : Start enacting of Optimisation Plan at simulation time: 8520.0
+[Thread-52553] INFO : Start enacting of Optimisation Plan at simulation time: 8580.0
+[Thread-53094] INFO : Start enacting of Optimisation Plan at simulation time: 8640.0
+[Thread-53635] INFO : Start enacting of Optimisation Plan at simulation time: 8700.0
+[Thread-54176] INFO : Start enacting of Optimisation Plan at simulation time: 8760.0
+[Thread-54717] INFO : Start enacting of Optimisation Plan at simulation time: 8820.0
+[Thread-55258] INFO : Start enacting of Optimisation Plan at simulation time: 8880.0
+[Thread-55799] INFO : Start enacting of Optimisation Plan at simulation time: 8940.0
+[Thread-56340] INFO : Start enacting of Optimisation Plan at simulation time: 9000.0
+[Thread-56881] INFO : Start enacting of Optimisation Plan at simulation time: 9060.0
+[Thread-57422] INFO : Start enacting of Optimisation Plan at simulation time: 9120.0
+[Thread-57963] INFO : Start enacting of Optimisation Plan at simulation time: 9180.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 9203.678
+[Thread-58179] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_NTwTsIGnEeaUlrKMHGZorQ
+[Thread-58179] INFO : Terminate request was executed properly
+[Thread-58469] INFO : Start enacting of Optimisation Plan at simulation time: 9240.0
+[Thread-58469] INFO : VM Migration started at simulation time: 9240.0
+[Thread-58469] INFO : Starting migrateVM controller completion
+[Thread-58469] INFO : Adding controllers for VM migration
+[Thread-58469] INFO : Adding VM controllers
+[Thread-58469] INFO : Added VM controller: mappedmigrateVm
+[Thread-58470] INFO : Start executing the controller scenario ('migrateVm')!
+[Thread-58470] INFO : Execution of the controller scenario ('migrateVm') finished!
+[Thread-58469] INFO : Migrated VM: instance-00001e65-_vEmYAIGnEeaUlrKMHGZorQfrom node: computenode14 to node: computenode16
+[Thread-58469] INFO : Migrate request was executed properly
+[Thread-58469] INFO : VM Migration finished at simulation time: 9241.373210995
+[Thread-58951] INFO : Start enacting of Optimisation Plan at simulation time: 9300.0
+[Thread-59432] INFO : Start enacting of Optimisation Plan at simulation time: 9360.0
+[Thread-59913] INFO : Start enacting of Optimisation Plan at simulation time: 9420.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 9475.962
+[Thread-60362] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_c-w0AIGnEeaUlrKMHGZorQ
+[Thread-60362] INFO : Terminate request was executed properly
+[Thread-60391] INFO : Start enacting of Optimisation Plan at simulation time: 9480.0
+[Thread-60812] INFO : Start enacting of Optimisation Plan at simulation time: 9540.0
+[Thread-61233] INFO : Start enacting of Optimisation Plan at simulation time: 9600.0
+[Thread-61654] INFO : Start enacting of Optimisation Plan at simulation time: 9660.0
+[Thread-62075] INFO : Start enacting of Optimisation Plan at simulation time: 9720.0
+[Thread-62496] INFO : Start enacting of Optimisation Plan at simulation time: 9780.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 9819.075
+[Thread-62772] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_vEiGkIGnEeaUlrKMHGZorQ
+[Thread-62772] INFO : Terminate request was executed properly
+[Thread-62898] INFO : Start enacting of Optimisation Plan at simulation time: 9840.0
+[Thread-63259] INFO : Start enacting of Optimisation Plan at simulation time: 9900.0
+[Thread-63620] INFO : Start enacting of Optimisation Plan at simulation time: 9960.0
+[Thread-63981] INFO : Start enacting of Optimisation Plan at simulation time: 10020.0
+[Thread-64342] INFO : Start enacting of Optimisation Plan at simulation time: 10080.0
+[Thread-64703] INFO : Start enacting of Optimisation Plan at simulation time: 10140.0
+[Thread-65064] INFO : Start enacting of Optimisation Plan at simulation time: 10200.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 10236.015
+[Thread-65282] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_CYY84IGoEeaUlrKMHGZorQ
+[Thread-65282] INFO : Terminate request was executed properly
+[Thread-65402] INFO : Start enacting of Optimisation Plan at simulation time: 10260.0
+[Thread-65703] INFO : Start enacting of Optimisation Plan at simulation time: 10320.0
+[Thread-66004] INFO : Start enacting of Optimisation Plan at simulation time: 10380.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 10433.700999999
+[Thread-66274] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_VJFbwIGoEeaUlrKMHGZorQ
+[Thread-66274] INFO : Terminate request was executed properly
+[Thread-66300] INFO : Start enacting of Optimisation Plan at simulation time: 10440.0
+[Thread-66541] INFO : Start enacting of Optimisation Plan at simulation time: 10500.0
+[Thread-66782] INFO : Start enacting of Optimisation Plan at simulation time: 10560.0
+[Thread-67023] INFO : Start enacting of Optimisation Plan at simulation time: 10620.0
+[Thread-67264] INFO : Start enacting of Optimisation Plan at simulation time: 10680.0
+[Thread-67505] INFO : Start enacting of Optimisation Plan at simulation time: 10740.0
+[Thread-67746] INFO : Start enacting of Optimisation Plan at simulation time: 10800.0
+[Thread-67987] INFO : Start enacting of Optimisation Plan at simulation time: 10860.0
+[Thread-68228] INFO : Start enacting of Optimisation Plan at simulation time: 10920.0
+[Thread-68469] INFO : Start enacting of Optimisation Plan at simulation time: 10980.0
+[Thread-68710] INFO : Start enacting of Optimisation Plan at simulation time: 11040.0
+[Thread-68951] INFO : Start enacting of Optimisation Plan at simulation time: 11100.0
+[Thread-69192] INFO : Start enacting of Optimisation Plan at simulation time: 11160.0
+[Thread-69433] INFO : Start enacting of Optimisation Plan at simulation time: 11220.0
+[Thread-69674] INFO : Start enacting of Optimisation Plan at simulation time: 11280.0
+[Thread-69915] INFO : Start enacting of Optimisation Plan at simulation time: 11340.0
+[Thread-70156] INFO : Start enacting of Optimisation Plan at simulation time: 11400.0
+[Thread-70397] INFO : Start enacting of Optimisation Plan at simulation time: 11460.0
+[Thread-70638] INFO : Start enacting of Optimisation Plan at simulation time: 11520.0
+[Thread-70879] INFO : Start enacting of Optimisation Plan at simulation time: 11580.0
+[Thread-71120] INFO : Start enacting of Optimisation Plan at simulation time: 11640.0
+[Thread-71361] INFO : Start enacting of Optimisation Plan at simulation time: 11700.0
+[Thread-71602] INFO : Start enacting of Optimisation Plan at simulation time: 11760.0
+[Thread-71843] INFO : Start enacting of Optimisation Plan at simulation time: 11820.0
+[Thread-72084] INFO : Start enacting of Optimisation Plan at simulation time: 11880.0
+[Thread-72325] INFO : Start enacting of Optimisation Plan at simulation time: 11940.0
+[Thread-72566] INFO : Start enacting of Optimisation Plan at simulation time: 12000.0
+[Thread-72807] INFO : Start enacting of Optimisation Plan at simulation time: 12060.0
+[Thread-73048] INFO : Start enacting of Optimisation Plan at simulation time: 12120.0
+[Thread-73289] INFO : Start enacting of Optimisation Plan at simulation time: 12180.0
+[Thread-73530] INFO : Start enacting of Optimisation Plan at simulation time: 12240.0
+[Thread-73771] INFO : Start enacting of Optimisation Plan at simulation time: 12300.0
+[Thread-74012] INFO : Start enacting of Optimisation Plan at simulation time: 12360.0
+[Thread-74253] INFO : Start enacting of Optimisation Plan at simulation time: 12420.0
+[Thread-74494] INFO : Start enacting of Optimisation Plan at simulation time: 12480.0
+[Thread-74735] INFO : Start enacting of Optimisation Plan at simulation time: 12540.0
+[Thread-74976] INFO : Start enacting of Optimisation Plan at simulation time: 12600.0
+[Thread-75217] INFO : Start enacting of Optimisation Plan at simulation time: 12660.0
+[Thread-75458] INFO : Start enacting of Optimisation Plan at simulation time: 12720.0
+[Thread-75699] INFO : Start enacting of Optimisation Plan at simulation time: 12780.0
+[Thread-75940] INFO : Start enacting of Optimisation Plan at simulation time: 12840.0
+[Thread-76181] INFO : Start enacting of Optimisation Plan at simulation time: 12900.0
+[Thread-76422] INFO : Start enacting of Optimisation Plan at simulation time: 12960.0
+[Thread-76663] INFO : Start enacting of Optimisation Plan at simulation time: 13020.0
+[Thread-76904] INFO : Start enacting of Optimisation Plan at simulation time: 13080.0
+[Thread-77145] INFO : Start enacting of Optimisation Plan at simulation time: 13140.0
+[Thread-77386] INFO : Start enacting of Optimisation Plan at simulation time: 13200.0
+[Thread-77627] INFO : Start enacting of Optimisation Plan at simulation time: 13260.0
+[Thread-77868] INFO : Start enacting of Optimisation Plan at simulation time: 13320.0
+[Thread-78109] INFO : Start enacting of Optimisation Plan at simulation time: 13380.0
+[Thread-78350] INFO : Start enacting of Optimisation Plan at simulation time: 13440.0
+[Thread-78591] INFO : Start enacting of Optimisation Plan at simulation time: 13500.0
+[Thread-78832] INFO : Start enacting of Optimisation Plan at simulation time: 13560.0
+[Thread-79073] INFO : Start enacting of Optimisation Plan at simulation time: 13620.0
+[Thread-79314] INFO : Start enacting of Optimisation Plan at simulation time: 13680.0
+[Thread-79555] INFO : Start enacting of Optimisation Plan at simulation time: 13740.0
+[Thread-79796] INFO : Start enacting of Optimisation Plan at simulation time: 13800.0
+[Thread-80037] INFO : Start enacting of Optimisation Plan at simulation time: 13860.0
+[Thread-80278] INFO : Start enacting of Optimisation Plan at simulation time: 13920.0
+[Thread-80519] INFO : Start enacting of Optimisation Plan at simulation time: 13980.0
+[Thread-80760] INFO : Start enacting of Optimisation Plan at simulation time: 14040.0
+[Thread-81001] INFO : Start enacting of Optimisation Plan at simulation time: 14100.0
+[Thread-81242] INFO : Start enacting of Optimisation Plan at simulation time: 14160.0
+[Thread-81483] INFO : Start enacting of Optimisation Plan at simulation time: 14220.0
+[Thread-81724] INFO : Start enacting of Optimisation Plan at simulation time: 14280.0
+[Thread-81965] INFO : Start enacting of Optimisation Plan at simulation time: 14340.0
+[Thread-82206] INFO : Start enacting of Optimisation Plan at simulation time: 14400.0
+[Thread-82447] INFO : Start enacting of Optimisation Plan at simulation time: 14460.0
+[Thread-82688] INFO : Start enacting of Optimisation Plan at simulation time: 14520.0
+[Thread-82929] INFO : Start enacting of Optimisation Plan at simulation time: 14580.0
+[Thread-83170] INFO : Start enacting of Optimisation Plan at simulation time: 14640.0
+[Thread-83411] INFO : Start enacting of Optimisation Plan at simulation time: 14700.0
+[Thread-83652] INFO : Start enacting of Optimisation Plan at simulation time: 14760.0
+[Thread-83893] INFO : Start enacting of Optimisation Plan at simulation time: 14820.0
+[Thread-84134] INFO : Start enacting of Optimisation Plan at simulation time: 14880.0
+[Thread-84375] INFO : Start enacting of Optimisation Plan at simulation time: 14940.0
+[Thread-84616] INFO : Start enacting of Optimisation Plan at simulation time: 15000.0
+[Thread-84857] INFO : Start enacting of Optimisation Plan at simulation time: 15060.0
+[Thread-85098] INFO : Start enacting of Optimisation Plan at simulation time: 15120.0
+[Thread-85339] INFO : Start enacting of Optimisation Plan at simulation time: 15180.0
+[Thread-85580] INFO : Start enacting of Optimisation Plan at simulation time: 15240.0
+[Thread-85821] INFO : Start enacting of Optimisation Plan at simulation time: 15300.0
+[Thread-86062] INFO : Start enacting of Optimisation Plan at simulation time: 15360.0
+[Thread-86303] INFO : Start enacting of Optimisation Plan at simulation time: 15420.0
+[Thread-86544] INFO : Start enacting of Optimisation Plan at simulation time: 15480.0
+[Thread-86785] INFO : Start enacting of Optimisation Plan at simulation time: 15540.0
+[Thread-87026] INFO : Start enacting of Optimisation Plan at simulation time: 15600.0
+[Thread-87267] INFO : Start enacting of Optimisation Plan at simulation time: 15660.0
+[Thread-87508] INFO : Start enacting of Optimisation Plan at simulation time: 15720.0
+[Thread-87749] INFO : Start enacting of Optimisation Plan at simulation time: 15780.0
+[Thread-87990] INFO : Start enacting of Optimisation Plan at simulation time: 15840.0
+[Thread-88231] INFO : Start enacting of Optimisation Plan at simulation time: 15900.0
+[Thread-88472] INFO : Start enacting of Optimisation Plan at simulation time: 15960.0
+[Thread-88713] INFO : Start enacting of Optimisation Plan at simulation time: 16020.0
+[Thread-88954] INFO : Start enacting of Optimisation Plan at simulation time: 16080.0
+[Thread-89195] INFO : Start enacting of Optimisation Plan at simulation time: 16140.0
+[Thread-89436] INFO : Start enacting of Optimisation Plan at simulation time: 16200.0
+[Thread-89677] INFO : Start enacting of Optimisation Plan at simulation time: 16260.0
+[Thread-89918] INFO : Start enacting of Optimisation Plan at simulation time: 16320.0
+[Thread-90159] INFO : Start enacting of Optimisation Plan at simulation time: 16380.0
+[Thread-90400] INFO : Start enacting of Optimisation Plan at simulation time: 16440.0
+[Thread-90641] INFO : Start enacting of Optimisation Plan at simulation time: 16500.0
+[Thread-90882] INFO : Start enacting of Optimisation Plan at simulation time: 16560.0
+[Thread-91123] INFO : Start enacting of Optimisation Plan at simulation time: 16620.0
+[Thread-91364] INFO : Start enacting of Optimisation Plan at simulation time: 16680.0
+[Thread-91605] INFO : Start enacting of Optimisation Plan at simulation time: 16740.0
+[Thread-91846] INFO : Start enacting of Optimisation Plan at simulation time: 16800.0
+[Thread-92087] INFO : Start enacting of Optimisation Plan at simulation time: 16860.0
+[Thread-92328] INFO : Start enacting of Optimisation Plan at simulation time: 16920.0
+[Thread-92569] INFO : Start enacting of Optimisation Plan at simulation time: 16980.0
+[Thread-92810] INFO : Start enacting of Optimisation Plan at simulation time: 17040.0
+[Thread-93051] INFO : Start enacting of Optimisation Plan at simulation time: 17100.0
+[Thread-93292] INFO : Start enacting of Optimisation Plan at simulation time: 17160.0
+[Thread-93533] INFO : Start enacting of Optimisation Plan at simulation time: 17220.0
+[Thread-93774] INFO : Start enacting of Optimisation Plan at simulation time: 17280.0
+[Thread-94015] INFO : Start enacting of Optimisation Plan at simulation time: 17340.0
+[Thread-94256] INFO : Start enacting of Optimisation Plan at simulation time: 17400.0
+[Thread-94497] INFO : Start enacting of Optimisation Plan at simulation time: 17460.0
+[Thread-94738] INFO : Start enacting of Optimisation Plan at simulation time: 17520.0
+[Thread-94979] INFO : Start enacting of Optimisation Plan at simulation time: 17580.0
+[Thread-95220] INFO : Start enacting of Optimisation Plan at simulation time: 17640.0
+[Thread-95461] INFO : Start enacting of Optimisation Plan at simulation time: 17700.0
+[Thread-95702] INFO : Start enacting of Optimisation Plan at simulation time: 17760.0
+[Thread-95943] INFO : Start enacting of Optimisation Plan at simulation time: 17820.0
+[Thread-96184] INFO : Start enacting of Optimisation Plan at simulation time: 17880.0
+[Thread-96425] INFO : Start enacting of Optimisation Plan at simulation time: 17940.0
+[Thread-96666] INFO : Start enacting of Optimisation Plan at simulation time: 18000.0
+[Thread-96907] INFO : Start enacting of Optimisation Plan at simulation time: 18060.0
+[Thread-97148] INFO : Start enacting of Optimisation Plan at simulation time: 18120.0
+[Thread-97389] INFO : Start enacting of Optimisation Plan at simulation time: 18180.0
+[Thread-97630] INFO : Start enacting of Optimisation Plan at simulation time: 18240.0
+[Thread-97871] INFO : Start enacting of Optimisation Plan at simulation time: 18300.0
+[Thread-98112] INFO : Start enacting of Optimisation Plan at simulation time: 18360.0
+[Thread-98353] INFO : Start enacting of Optimisation Plan at simulation time: 18420.0
+[Thread-98594] INFO : Start enacting of Optimisation Plan at simulation time: 18480.0
+[Thread-98835] INFO : Start enacting of Optimisation Plan at simulation time: 18540.0
+[Thread-99076] INFO : Start enacting of Optimisation Plan at simulation time: 18600.0
+[Thread-99317] INFO : Start enacting of Optimisation Plan at simulation time: 18660.0
+[Thread-99558] INFO : Start enacting of Optimisation Plan at simulation time: 18720.0
+[Thread-99799] INFO : Start enacting of Optimisation Plan at simulation time: 18780.0
+[Thread-100040] INFO : Start enacting of Optimisation Plan at simulation time: 18840.0
+[Thread-100281] INFO : Start enacting of Optimisation Plan at simulation time: 18900.0
+[Thread-100522] INFO : Start enacting of Optimisation Plan at simulation time: 18960.0
+[Thread-100763] INFO : Start enacting of Optimisation Plan at simulation time: 19020.0
+[Thread-101004] INFO : Start enacting of Optimisation Plan at simulation time: 19080.0
+[Thread-101245] INFO : Start enacting of Optimisation Plan at simulation time: 19140.0
+[Thread-101486] INFO : Start enacting of Optimisation Plan at simulation time: 19200.0
+[Thread-101727] INFO : Start enacting of Optimisation Plan at simulation time: 19260.0
+[Thread-101968] INFO : Start enacting of Optimisation Plan at simulation time: 19320.0
+[Thread-102209] INFO : Start enacting of Optimisation Plan at simulation time: 19380.0
+[Thread-102450] INFO : Start enacting of Optimisation Plan at simulation time: 19440.0
+[Thread-102691] INFO : Start enacting of Optimisation Plan at simulation time: 19500.0
+[Thread-102932] INFO : Start enacting of Optimisation Plan at simulation time: 19560.0
+[Thread-103173] INFO : Start enacting of Optimisation Plan at simulation time: 19620.0
+[Thread-103414] INFO : Start enacting of Optimisation Plan at simulation time: 19680.0
+[Thread-103655] INFO : Start enacting of Optimisation Plan at simulation time: 19740.0
+[Thread-103896] INFO : Start enacting of Optimisation Plan at simulation time: 19800.0
+[Thread-104137] INFO : Start enacting of Optimisation Plan at simulation time: 19860.0
+[Thread-104378] INFO : Start enacting of Optimisation Plan at simulation time: 19920.0
+[Thread-104619] INFO : Start enacting of Optimisation Plan at simulation time: 19980.0
+[Thread-104860] INFO : Start enacting of Optimisation Plan at simulation time: 20040.0
+[Thread-105101] INFO : Start enacting of Optimisation Plan at simulation time: 20100.0
+[Thread-105342] INFO : Start enacting of Optimisation Plan at simulation time: 20160.0
+[Thread-105583] INFO : Start enacting of Optimisation Plan at simulation time: 20220.0
+[Thread-105824] INFO : Start enacting of Optimisation Plan at simulation time: 20280.0
+[Thread-106065] INFO : Start enacting of Optimisation Plan at simulation time: 20340.0
+[Thread-106306] INFO : Start enacting of Optimisation Plan at simulation time: 20400.0
+[Thread-106547] INFO : Start enacting of Optimisation Plan at simulation time: 20460.0
+[Thread-106788] INFO : Start enacting of Optimisation Plan at simulation time: 20520.0
+[Thread-107029] INFO : Start enacting of Optimisation Plan at simulation time: 20580.0
+[Thread-107270] INFO : Start enacting of Optimisation Plan at simulation time: 20640.0
+[Thread-107511] INFO : Start enacting of Optimisation Plan at simulation time: 20700.0
+[Thread-107752] INFO : Start enacting of Optimisation Plan at simulation time: 20760.0
+[Thread-107993] INFO : Start enacting of Optimisation Plan at simulation time: 20820.0
+[Thread-108234] INFO : Start enacting of Optimisation Plan at simulation time: 20880.0
+[Thread-108475] INFO : Start enacting of Optimisation Plan at simulation time: 20940.0
+[Thread-108716] INFO : Start enacting of Optimisation Plan at simulation time: 21000.0
+[Thread-108957] INFO : Start enacting of Optimisation Plan at simulation time: 21060.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 21060.371999999
+[Thread-108960] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_zZXyIIGiEeaUlrKMHGZorQ
+[Thread-108960] INFO : Terminate request was executed properly
+[Thread-109140] INFO : Start enacting of Optimisation Plan at simulation time: 21120.0
+[Thread-109140] INFO : VM Migration started at simulation time: 21120.0
+[Thread-109140] INFO : Starting migrateVM controller completion
+[Thread-109140] INFO : Adding controllers for VM migration
+[Thread-109140] INFO : Adding VM controllers
+[Thread-109140] INFO : Added VM controller: mappedmigrateVm
+[Thread-109141] INFO : Start executing the controller scenario ('migrateVm')!
+[Thread-109141] INFO : Execution of the controller scenario ('migrateVm') finished!
+[Thread-109140] INFO : Migrated VM: instance-00001e5e-_cxnssIGjEeaUlrKMHGZorQfrom node: computenode05 to node: computenode11
+[Thread-109140] INFO : Migrate request was executed properly
+[Thread-109140] INFO : VM Migration finished at simulation time: 21121.134335849
+[Thread-109322] INFO : Start enacting of Optimisation Plan at simulation time: 21180.0
+[Thread-109503] INFO : Start enacting of Optimisation Plan at simulation time: 21240.0
+[Thread-109684] INFO : Start enacting of Optimisation Plan at simulation time: 21300.0
+[Thread-109865] INFO : Start enacting of Optimisation Plan at simulation time: 21360.0
+[Thread-110046] INFO : Start enacting of Optimisation Plan at simulation time: 21420.0
+[Thread-110227] INFO : Start enacting of Optimisation Plan at simulation time: 21480.0
+[Thread-110408] INFO : Start enacting of Optimisation Plan at simulation time: 21540.0
+[Thread-110589] INFO : Start enacting of Optimisation Plan at simulation time: 21600.0
+[Thread-110770] INFO : Start enacting of Optimisation Plan at simulation time: 21660.0
+[Thread-110951] INFO : Start enacting of Optimisation Plan at simulation time: 21720.0
+[Thread-111132] INFO : Start enacting of Optimisation Plan at simulation time: 21780.0
+[Thread-111313] INFO : Start enacting of Optimisation Plan at simulation time: 21840.0
+[Thread-111494] INFO : Start enacting of Optimisation Plan at simulation time: 21900.0
+[Thread-111675] INFO : Start enacting of Optimisation Plan at simulation time: 21960.0
+[Thread-111856] INFO : Start enacting of Optimisation Plan at simulation time: 22020.0
+[Thread-112037] INFO : Start enacting of Optimisation Plan at simulation time: 22080.0
+[Thread-112218] INFO : Start enacting of Optimisation Plan at simulation time: 22140.0
+[Thread-112399] INFO : Start enacting of Optimisation Plan at simulation time: 22200.0
+[Thread-112580] INFO : Start enacting of Optimisation Plan at simulation time: 22260.0
+[Thread-112761] INFO : Start enacting of Optimisation Plan at simulation time: 22320.0
+[Thread-112942] INFO : Start enacting of Optimisation Plan at simulation time: 22380.0
+[Thread-113123] INFO : Start enacting of Optimisation Plan at simulation time: 22440.0
+[Thread-113304] INFO : Start enacting of Optimisation Plan at simulation time: 22500.0
+[Thread-113485] INFO : Start enacting of Optimisation Plan at simulation time: 22560.0
+[Thread-113666] INFO : Start enacting of Optimisation Plan at simulation time: 22620.0
+[Thread-113847] INFO : Start enacting of Optimisation Plan at simulation time: 22680.0
+[Thread-114028] INFO : Start enacting of Optimisation Plan at simulation time: 22740.0
+[Thread-114209] INFO : Start enacting of Optimisation Plan at simulation time: 22800.0
+[Thread-114390] INFO : Start enacting of Optimisation Plan at simulation time: 22860.0
+[Thread-114571] INFO : Start enacting of Optimisation Plan at simulation time: 22920.0
+[Thread-114752] INFO : Start enacting of Optimisation Plan at simulation time: 22980.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 23003.07
+[Thread-114822] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_cxkpYIGjEeaUlrKMHGZorQ
+[Thread-114822] INFO : Terminate request was executed properly
+[Thread-114897] INFO : Start enacting of Optimisation Plan at simulation time: 23040.0
+[Thread-115018] INFO : Start enacting of Optimisation Plan at simulation time: 23100.0
+[Thread-115139] INFO : Start enacting of Optimisation Plan at simulation time: 23160.0
+[Thread-115260] INFO : Start enacting of Optimisation Plan at simulation time: 23220.0
+[Thread-115381] INFO : Start enacting of Optimisation Plan at simulation time: 23280.0
+[Thread-115502] INFO : Start enacting of Optimisation Plan at simulation time: 23340.0
+[Thread-115623] INFO : Start enacting of Optimisation Plan at simulation time: 23400.0
+[Thread-115744] INFO : Start enacting of Optimisation Plan at simulation time: 23460.0
+[Thread-115865] INFO : Start enacting of Optimisation Plan at simulation time: 23520.0
+[Thread-115986] INFO : Start enacting of Optimisation Plan at simulation time: 23580.0
+[Thread-116107] INFO : Start enacting of Optimisation Plan at simulation time: 23640.0
+[Thread-116228] INFO : Start enacting of Optimisation Plan at simulation time: 23700.0
+[Thread-116349] INFO : Start enacting of Optimisation Plan at simulation time: 23760.0
+[Thread-116470] INFO : Start enacting of Optimisation Plan at simulation time: 23820.0
+[Thread-116591] INFO : Start enacting of Optimisation Plan at simulation time: 23880.0
+[Thread-116712] INFO : Start enacting of Optimisation Plan at simulation time: 23940.0
+[Thread-116833] INFO : Start enacting of Optimisation Plan at simulation time: 24000.0
+[Thread-116954] INFO : Start enacting of Optimisation Plan at simulation time: 24060.0
+[Thread-117075] INFO : Start enacting of Optimisation Plan at simulation time: 24120.0
+[Thread-117196] INFO : Start enacting of Optimisation Plan at simulation time: 24180.0
+[Thread-117317] INFO : Start enacting of Optimisation Plan at simulation time: 24240.0
+[Thread-117438] INFO : Start enacting of Optimisation Plan at simulation time: 24300.0
+[Thread-117559] INFO : Start enacting of Optimisation Plan at simulation time: 24360.0
+[Thread-117680] INFO : Start enacting of Optimisation Plan at simulation time: 24420.0
+[Thread-117801] INFO : Start enacting of Optimisation Plan at simulation time: 24480.0
+[Thread-117922] INFO : Start enacting of Optimisation Plan at simulation time: 24540.0
+[Thread-118043] INFO : Start enacting of Optimisation Plan at simulation time: 24600.0
+[Thread-118164] INFO : Start enacting of Optimisation Plan at simulation time: 24660.0
+[Thread-118285] INFO : Start enacting of Optimisation Plan at simulation time: 24720.0
+[Thread-118406] INFO : Start enacting of Optimisation Plan at simulation time: 24780.0
+[Thread-118527] INFO : Start enacting of Optimisation Plan at simulation time: 24840.0
+[Thread-118648] INFO : Start enacting of Optimisation Plan at simulation time: 24900.0
+[Thread-118769] INFO : Start enacting of Optimisation Plan at simulation time: 24960.0
+[Thread-118890] INFO : Start enacting of Optimisation Plan at simulation time: 25020.0
+[Thread-119011] INFO : Start enacting of Optimisation Plan at simulation time: 25080.0
+[Thread-119132] INFO : Start enacting of Optimisation Plan at simulation time: 25140.0
+[Thread-119253] INFO : Start enacting of Optimisation Plan at simulation time: 25200.0
+[Thread-119374] INFO : Start enacting of Optimisation Plan at simulation time: 25260.0
+[Thread-119495] INFO : Start enacting of Optimisation Plan at simulation time: 25320.0
+[Thread-119616] INFO : Start enacting of Optimisation Plan at simulation time: 25380.0
+[Thread-119737] INFO : Start enacting of Optimisation Plan at simulation time: 25440.0
+[Thread-119858] INFO : Start enacting of Optimisation Plan at simulation time: 25500.0
+[Thread-119979] INFO : Start enacting of Optimisation Plan at simulation time: 25560.0
+[Thread-120100] INFO : Start enacting of Optimisation Plan at simulation time: 25620.0
+[Thread-120221] INFO : Start enacting of Optimisation Plan at simulation time: 25680.0
+[Thread-120342] INFO : Start enacting of Optimisation Plan at simulation time: 25740.0
+[Thread-120463] INFO : Start enacting of Optimisation Plan at simulation time: 25800.0
+[Thread-120584] INFO : Start enacting of Optimisation Plan at simulation time: 25860.0
+[Thread-120705] INFO : Start enacting of Optimisation Plan at simulation time: 25920.0
+[Thread-120826] INFO : Start enacting of Optimisation Plan at simulation time: 25980.0
+[Thread-120947] INFO : Start enacting of Optimisation Plan at simulation time: 26040.0
+[Thread-121068] INFO : Start enacting of Optimisation Plan at simulation time: 26100.0
+[Thread-121189] INFO : Start enacting of Optimisation Plan at simulation time: 26160.0
+[Thread-121310] INFO : Start enacting of Optimisation Plan at simulation time: 26220.0
+[Thread-121431] INFO : Start enacting of Optimisation Plan at simulation time: 26280.0
+[Thread-121552] INFO : Start enacting of Optimisation Plan at simulation time: 26340.0
+[Thread-121673] INFO : Start enacting of Optimisation Plan at simulation time: 26400.0
+[Thread-121794] INFO : Start enacting of Optimisation Plan at simulation time: 26460.0
+[Thread-121915] INFO : Start enacting of Optimisation Plan at simulation time: 26520.0
+[Thread-122036] INFO : Start enacting of Optimisation Plan at simulation time: 26580.0
+[Thread-122157] INFO : Start enacting of Optimisation Plan at simulation time: 26640.0
+[Thread-122278] INFO : Start enacting of Optimisation Plan at simulation time: 26700.0
+[Thread-122399] INFO : Start enacting of Optimisation Plan at simulation time: 26760.0
+[Thread-122520] INFO : Start enacting of Optimisation Plan at simulation time: 26820.0
+[Thread-122641] INFO : Start enacting of Optimisation Plan at simulation time: 26880.0
+[Thread-122762] INFO : Start enacting of Optimisation Plan at simulation time: 26940.0
+[Thread-122883] INFO : Start enacting of Optimisation Plan at simulation time: 27000.0
+[Thread-123004] INFO : Start enacting of Optimisation Plan at simulation time: 27060.0
+[Thread-123125] INFO : Start enacting of Optimisation Plan at simulation time: 27120.0
+[Thread-123246] INFO : Start enacting of Optimisation Plan at simulation time: 27180.0
+[Thread-123367] INFO : Start enacting of Optimisation Plan at simulation time: 27240.0
+[Thread-123488] INFO : Start enacting of Optimisation Plan at simulation time: 27300.0
+[Thread-123609] INFO : Start enacting of Optimisation Plan at simulation time: 27360.0
+[Thread-123730] INFO : Start enacting of Optimisation Plan at simulation time: 27420.0
+[Thread-123851] INFO : Start enacting of Optimisation Plan at simulation time: 27480.0
+[Thread-123972] INFO : Start enacting of Optimisation Plan at simulation time: 27540.0
+[Thread-124093] INFO : Start enacting of Optimisation Plan at simulation time: 27600.0
+[Thread-124214] INFO : Start enacting of Optimisation Plan at simulation time: 27660.0
+[Thread-124335] INFO : Start enacting of Optimisation Plan at simulation time: 27720.0
+[Thread-124456] INFO : Start enacting of Optimisation Plan at simulation time: 27780.0
+[Thread-124577] INFO : Start enacting of Optimisation Plan at simulation time: 27840.0
+[Thread-124698] INFO : Start enacting of Optimisation Plan at simulation time: 27900.0
+[Thread-124819] INFO : Start enacting of Optimisation Plan at simulation time: 27960.0
+[Thread-124940] INFO : Start enacting of Optimisation Plan at simulation time: 28020.0
+[Thread-125061] INFO : Start enacting of Optimisation Plan at simulation time: 28080.0
+[Thread-125182] INFO : Start enacting of Optimisation Plan at simulation time: 28140.0
+[Thread-125303] INFO : Start enacting of Optimisation Plan at simulation time: 28200.0
+[Thread-125424] INFO : Start enacting of Optimisation Plan at simulation time: 28260.0
+[Thread-125545] INFO : Start enacting of Optimisation Plan at simulation time: 28320.0
+[Thread-125666] INFO : Start enacting of Optimisation Plan at simulation time: 28380.0
+[Thread-125787] INFO : Start enacting of Optimisation Plan at simulation time: 28440.0
+[Thread-125908] INFO : Start enacting of Optimisation Plan at simulation time: 28500.0
+[Thread-126029] INFO : Start enacting of Optimisation Plan at simulation time: 28560.0
+[Thread-126150] INFO : Start enacting of Optimisation Plan at simulation time: 28620.0
+[Thread-126271] INFO : Start enacting of Optimisation Plan at simulation time: 28680.0
+[Thread-126392] INFO : Start enacting of Optimisation Plan at simulation time: 28740.0
+[Thread-126513] INFO : Start enacting of Optimisation Plan at simulation time: 28800.0
+[Thread-126634] INFO : Start enacting of Optimisation Plan at simulation time: 28860.0
+[Thread-126755] INFO : Start enacting of Optimisation Plan at simulation time: 28920.0
+[Thread-126876] INFO : Start enacting of Optimisation Plan at simulation time: 28980.0
+[Thread-126997] INFO : Start enacting of Optimisation Plan at simulation time: 29040.0
+[Thread-127118] INFO : Start enacting of Optimisation Plan at simulation time: 29100.0
+[Thread-127239] INFO : Start enacting of Optimisation Plan at simulation time: 29160.0
+[Thread-127360] INFO : Start enacting of Optimisation Plan at simulation time: 29220.0
+[Thread-127481] INFO : Start enacting of Optimisation Plan at simulation time: 29280.0
+[Thread-127602] INFO : Start enacting of Optimisation Plan at simulation time: 29340.0
+[Thread-127723] INFO : Start enacting of Optimisation Plan at simulation time: 29400.0
+[Thread-127844] INFO : Start enacting of Optimisation Plan at simulation time: 29460.0
+[Thread-127965] INFO : Start enacting of Optimisation Plan at simulation time: 29520.0
+[Thread-128086] INFO : Start enacting of Optimisation Plan at simulation time: 29580.0
+[Thread-128207] INFO : Start enacting of Optimisation Plan at simulation time: 29640.0
+[Thread-128328] INFO : Start enacting of Optimisation Plan at simulation time: 29700.0
+[Thread-128449] INFO : Start enacting of Optimisation Plan at simulation time: 29760.0
+[Thread-128570] INFO : Start enacting of Optimisation Plan at simulation time: 29820.0
+[Thread-128691] INFO : Start enacting of Optimisation Plan at simulation time: 29880.0
+[Thread-128812] INFO : Start enacting of Optimisation Plan at simulation time: 29940.0
+[Thread-128933] INFO : Start enacting of Optimisation Plan at simulation time: 30000.0
+[Thread-129054] INFO : Start enacting of Optimisation Plan at simulation time: 30060.0
+[Thread-129175] INFO : Start enacting of Optimisation Plan at simulation time: 30120.0
+[Thread-129296] INFO : Start enacting of Optimisation Plan at simulation time: 30180.0
+[Thread-129417] INFO : Start enacting of Optimisation Plan at simulation time: 30240.0
+[Thread-129538] INFO : Start enacting of Optimisation Plan at simulation time: 30300.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 30318.822
+[Thread-129577] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_4AP2oIGiEeaUlrKMHGZorQ
+[Thread-129577] INFO : Terminate request was executed properly
+[Thread-129619] INFO : Start enacting of Optimisation Plan at simulation time: 30360.0
+[Thread-8  ] INFO : Start execution of TerminateApplicationRequest at simulation time: 30390.432999999
+[Thread-129651] INFO : Remove Black Box Usage Scenario: Usage of BlackBoxApplication #_97MLEIGiEeaUlrKMHGZorQ
+[Thread-129651] INFO : Terminate request was executed properly
+[Thread-129652] INFO : Start enacting of Optimisation Plan at simulation time: 30420.0
+[Thread-129653] INFO : Start enacting of Optimisation Plan at simulation time: 30480.0
+[Thread-129654] INFO : Start enacting of Optimisation Plan at simulation time: 30540.0
+[Thread-129655] INFO : Start enacting of Optimisation Plan at simulation time: 30600.0
+[Thread-129656] INFO : Start enacting of Optimisation Plan at simulation time: 30660.0
+[Thread-129657] INFO : Start enacting of Optimisation Plan at simulation time: 30720.0
+[Thread-129658] INFO : Start enacting of Optimisation Plan at simulation time: 30780.0
+[Worker-13 ] INFO : Simulation stop requested!
+[Worker-13 ] INFO : Simulation took 30840.0 simulated time units
+[Worker-13 ] INFO : Simulation terminated. Took 7825.890083337 real time seconds.
+[Worker-13 ] INFO : finished job: org.palladiosimulator.simulizar.launcher.jobs.PCMStartInterpretationJob@6c0c7e8e
+[Worker-13 ] INFO : Task Opening 'org.palladiosimulator.temporary'. completed in 7835.010567263 seconds
+[Worker-13 ] INFO : Task Closing 'org.palladiosimulator.temporary'. completed in 0.037163257 seconds
+[Worker-13 ] INFO : Task completed in 0.104232945 seconds
+[Worker-13 ] INFO : Task completed in 0.007891991 seconds
+[Worker-13 ] INFO : Task completed in 0.008154899 seconds
+[Worker-13 ] INFO : Cleaning up...
+[Worker-13 ] INFO : Workflow engine completed task

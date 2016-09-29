@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:LogicalDCModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.cactosfp7.eu/LogicalDCModel/Core/1.0" id="_96bFMHvzEeaIIrpRh2yC9g" cyclicOptimizationInterval="60.0s">
+  <hypervisors id="_96hL5XvzEeaIIrpRh2yC9g" rootVolume="_Tv-o4H85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96f9uXvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL5nvzEeaIIrpRh2yC9g" rootVolume="_Tv_3AH85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gkyHvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL53vzEeaIIrpRh2yC9g" rootVolume="_TwAeEH85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gk0XvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL6HvzEeaIIrpRh2yC9g" rootVolume="_TwAeEX85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gk2nvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL6XvzEeaIIrpRh2yC9g" rootVolume="_TwAeEn85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gk43vzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL6nvzEeaIIrpRh2yC9g" rootVolume="_TwAeE385EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gk7HvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL63vzEeaIIrpRh2yC9g" rootVolume="_TwAeFH85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gk9XvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <hypervisors id="_96hL7HvzEeaIIrpRh2yC9g" rootVolume="_TwAeFX85EeaebPENjW1k8g">
+    <hypervisorType href="uulm-testbed.hypervisor#_96f9tXvzEeaIIrpRh2yC9g"/>
+    <node href="uulm-testbed.physical#_96gk_nvzEeaIIrpRh2yC9g"/>
+  </hypervisors>
+  <volumesAndImages xsi:type="core:VMImage" id="_NgS0UH8JEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-165-1474358821" capacity="165.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_7WhWEX8JEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474359129" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_pdH2IX8KEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-165-1474359438" capacity="165.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_Xx1qsH8LEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474359749" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_GS9jkX8MEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-165-1474360062" capacity="165.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_1Cu8cX8MEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474360375" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_j_H1AH8NEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-165-1474360690" capacity="165.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_S_l8UX8OEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474361006" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_CGL5wX8PEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474361322" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_xc-PUX8PEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-165-1474361640" capacity="165.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_g-Ry0X8QEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474361959" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_QnnQ8X8REeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474362278" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_AaYX4H8SEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474362599" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_wUs4UX8SEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-165-1474362921" capacity="165.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_gvF_8X8TEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474363245" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_RBozIH8UEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474363570" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_BuBpsX8VEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474363896" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_xxffEX8VEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474364219" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_iMfqsX8WEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474364544" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_SG1ZQX8XEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474364865" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_CJmEAX8YEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474365188" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_yJ-JIn8YEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474365510" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_iDZRsX8ZEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474365831" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_R5GX4X8aEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474366152" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_A42tgX8bEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474366468" capacity="80.0GB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_vvjN_38bEeaAheavxr9T7g" name="2f0cad2e-9495-4d5d-a3cc-70165ea665b6-80-1474366782" capacity="80.0GB"/>
+  <volumesAndImages id="_Tv-o4H85EeaebPENjW1k8g" name="Root Volume of computenode02" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96glBnvzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_Tv_3AH85EeaebPENjW1k8g" name="Root Volume of computenode05" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL0HvzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_TwAeEH85EeaebPENjW1k8g" name="Root Volume of computenode08" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL03vzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_TwAeEX85EeaebPENjW1k8g" name="Root Volume of computenode11" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL1nvzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_TwAeEn85EeaebPENjW1k8g" name="Root Volume of computenode12" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL2XvzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_TwAeE385EeaebPENjW1k8g" name="Root Volume of computenode14" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL3HvzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_TwAeFH85EeaebPENjW1k8g" name="Root Volume of computenode15" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL33vzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+  <volumesAndImages id="_TwAeFX85EeaebPENjW1k8g" name="Root Volume of computenode16" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_96hL4nvzEeaIIrpRh2yC9g"/>
+  </volumesAndImages>
+</core:LogicalDCModel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:LogicalDCModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http://www.cactosfp7.eu/LogicalDCModel/Core/1.0" id="_ENRMgHXDEea428Y7BDZmHg" cyclicOptimizationInterval="60.0s">
+  <hypervisors id="_EpXSoHXDEea428Y7BDZmHg" rootVolume="_B7ybgHnIEeaxIaPuF5TtYQ">
+    <hypervisorType href="flexiant-testbed.hypervisor#_ElpQQHXDEea428Y7BDZmHg"/>
+    <node href="flexiant-testbed.physical#_EpDJkHXDEea428Y7BDZmHg"/>
+  </hypervisors>
+  <hypervisors id="_EpXSoXXDEea428Y7BDZmHg" rootVolume="_B7zpoHnIEeaxIaPuF5TtYQ">
+    <hypervisorType href="flexiant-testbed.hypervisor#_ElpQQHXDEea428Y7BDZmHg"/>
+    <node href="flexiant-testbed.physical#_EpMTgnXDEea428Y7BDZmHg"/>
+  </hypervisors>
+  <hypervisors id="_EpX5sHXDEea428Y7BDZmHg" rootVolume="_B7zpoXnIEeaxIaPuF5TtYQ">
+    <hypervisorType href="flexiant-testbed.hypervisor#_ElpQQHXDEea428Y7BDZmHg"/>
+    <node href="flexiant-testbed.physical#_EpNhpHXDEea428Y7BDZmHg"/>
+  </hypervisors>
+  <volumesAndImages id="_B7ybgHnIEeaxIaPuF5TtYQ" name="Root Volume of 10.157.128.30" capacity="8.0bit*1000000000">
+    <storageLocation href="flexiant-testbed.physical#_EpQk8HXDEea428Y7BDZmHg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_B7zpoHnIEeaxIaPuF5TtYQ" name="Root Volume of 10.157.128.31" capacity="8.0bit*1000000000">
+    <storageLocation href="flexiant-testbed.physical#_EpToQHXDEea428Y7BDZmHg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_B7zpoXnIEeaxIaPuF5TtYQ" name="Root Volume of 10.157.128.32" capacity="8.0bit*1000000000">
+    <storageLocation href="flexiant-testbed.physical#_EpUPUHXDEea428Y7BDZmHg"/>
+  </volumesAndImages>
+</core:LogicalDCModel>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="eu.cactosfp7.cactosim.ui.launcher.CactoSimLaunching">
+<stringAttribute key="EDP2RepositoryID" value="platform:/resource/eu.cactosfp7.cactosim.evaluation.dataplay.dtp2_import_blackbox/results"/>
+<stringAttribute key="accuracyQualityAnnotationFile" value=""/>
+<booleanAttribute key="clear" value="false"/>
+<stringAttribute key="confidenceBatchSize" value="200"/>
+<stringAttribute key="confidenceHalfWidth" value="10"/>
+<stringAttribute key="confidenceLevel" value="95"/>
+<stringAttribute key="confidenceMinNumberOfBatches" value="60"/>
+<stringAttribute key="confidenceModelElementName" value=""/>
+<stringAttribute key="confidenceModelElementURI" value=""/>
+<booleanAttribute key="confidenceUseAutomaticBatches" value="true"/>
+<intAttribute key="datasourceID" value="-1"/>
+<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="2"/>
+<stringAttribute key="experimentRun" value="MyRun"/>
+<stringAttribute key="experimentScenarioModel" value="platform:/resource/eu.cactosfp7.cactosim.evaluation.dataplay.dtp2_import_blackbox/dataplay.experimentscenario"/>
+<stringAttribute key="fixedSeed0" value="0"/>
+<stringAttribute key="fixedSeed1" value="1"/>
+<stringAttribute key="fixedSeed2" value="2"/>
+<stringAttribute key="fixedSeed3" value="3"/>
+<stringAttribute key="fixedSeed4" value="4"/>
+<stringAttribute key="fixedSeed5" value="5"/>
+<stringAttribute key="logicalDcModel" value="platform:/resource/eu.cactosfp7.cactosim.evaluation.dataplay.dtp2_import_blackbox/uulm-testbed.logical"/>
+<stringAttribute key="maximum" value=""/>
+<stringAttribute key="maximumMeasurementCount" value="-1"/>
+<stringAttribute key="minimum" value=""/>
+<stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
+<stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
+<stringAttribute key="simTime" value="3120"/>
+<booleanAttribute key="simulateAccuracy" value="false"/>
+<stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simucom"/>
+<stringAttribute key="stepwidth" value=""/>
+<booleanAttribute key="useConfidenceStopCondition" value="false"/>
+<booleanAttribute key="useFixedSeed" value="true"/>
+<stringAttribute key="variable" value=""/>
+<stringAttribute key="variationId" value="Default Variation"/>
+<booleanAttribute key="verboseLogging" value="false"/>
+</launchConfiguration>

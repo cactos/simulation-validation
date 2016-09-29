@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<specification:PowerModelRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:specification="http://www.cactosfp7.eu/PhysicalDCModel/Power/Specification/1.0" id="_Ljw5MOn7EeWDO84ZsNy36w" name="Generated for Year 2 Demonstration">
+  <powerModels id="_LjyHUOn7EeWDO84ZsNy36w" name="Linear Power Model" expression="minConsumption+u*(maxConsumption-minConsumption)">
+    <consumptionFactors xsi:type="specification:FixedFactor" id="_LjzVcOn7EeWDO84ZsNy36w" name="minConsumption"/>
+    <consumptionFactors xsi:type="specification:FixedFactor" id="_LjzVcen7EeWDO84ZsNy36w" name="maxConsumption"/>
+    <consumptionFactors xsi:type="specification:MeasuredFactor" id="_Lj0jkOn7EeWDO84ZsNy36w" name="u" unit="ACED00057372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787000000000757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000000"/>
+  </powerModels>
+</specification:PowerModelRepository>

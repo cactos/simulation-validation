@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experimentscenario:ExperimentScenarioTimeLine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.cactosfp7.eu/LogicalDCModel/Application/1.0" xmlns:experimentscenario="http://www.cactosfp7.eu/ExperimentScenarioModel/1.0" xmlns:request="http://www.cactosfp7.eu/ExperimentScenarioModel/Request/1.0" id="_vo0HAH_0EeaebPENjW1k8g" simulationResolution="10.0s">
+  <timeLineEvents xsi:type="experimentscenario:AbsoluteTimeEvent" id="_1kTOAH_0EeaebPENjW1k8g" simulationTime="1.0s">
+    <experimentScenarioRequest xsi:type="request:StartApplicationRequest" id="_2uxdEn_0EeaebPENjW1k8g">
+      <applicationTemplate xsi:type="application:WhiteBoxApplicationTemplate" href="uulm-testbed.logical#_onQZ4PAXEeW4H40OWqQumg"/>
+    </experimentScenarioRequest>
+  </timeLineEvents>
+</experimentscenario:ExperimentScenarioTimeLine>

@@ -1,0 +1,259 @@
+[Worker-4  ] INFO : Create workflow configuration
+[Worker-4  ] INFO : Validating workflow configuration
+[Worker-4  ] INFO : Creating workflow engine
+[Worker-4  ] INFO : Executing workflow
+[Worker-4  ] INFO : Creating workflow engine and starting workflow
+[Worker-4  ] INFO : Task Closing 'org.palladiosimulator.temporary'. completed in 4.36147E-4 seconds
+[Worker-4  ] INFO : Task completed in 0.055328 seconds
+[Worker-4  ] INFO : Task completed in 0.182647313 seconds
+[Worker-4  ] INFO : Task Create. completed in 0.036665558 seconds
+[Worker-4  ] INFO : Task Opening 'org.palladiosimulator.temporary'. completed in 0.032497724 seconds
+[Worker-4  ] INFO : Task Sequential Job Execution completed in 0.101615059 seconds
+[Worker-4  ] INFO : Start job: org.palladiosimulator.simulizar.launcher.jobs.PCMStartInterpretationJob@85a662c
+[Worker-4  ] INFO : Initialise Simulizar runtime state
+[Worker-4  ] INFO : Starting simulation...
+[Thread-7  ] INFO : Update Measurement Correspondences
+[Thread-8  ] INFO : Start enacting of Optimisation Plan at simulation time: 10.0
+[Thread-9  ] INFO : Start enacting of Optimisation Plan at simulation time: 20.0
+[Thread-10 ] INFO : Start enacting of Optimisation Plan at simulation time: 30.0
+[Thread-11 ] INFO : Start enacting of Optimisation Plan at simulation time: 40.0
+[Thread-12 ] INFO : Start enacting of Optimisation Plan at simulation time: 50.0
+[Thread-13 ] INFO : Start enacting of Optimisation Plan at simulation time: 60.0
+[Thread-14 ] INFO : Start enacting of Optimisation Plan at simulation time: 70.0
+[Thread-15 ] INFO : Start enacting of Optimisation Plan at simulation time: 80.0
+[Thread-16 ] INFO : Start enacting of Optimisation Plan at simulation time: 90.0
+[Thread-17 ] INFO : Start enacting of Optimisation Plan at simulation time: 100.0
+[Thread-18 ] INFO : Start enacting of Optimisation Plan at simulation time: 110.0
+[Thread-19 ] INFO : Start enacting of Optimisation Plan at simulation time: 120.0
+[Thread-20 ] INFO : Start enacting of Optimisation Plan at simulation time: 130.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 130.308
+[Thread-22 ] INFO : VM Placement started at simulation time: 130.308
+[Thread-22 ] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-22 ] INFO : Placing VM VirtualMachine[TRANSIENT] (_PzU58ITHEeagCbBu1IOgAQ) on Hypervisor 10.157.128.30 (_EpXSoHXDEea428Y7BDZmHg)
+[Thread-22 ] INFO : VM Placement finished at simulation time: 130.308
+[Thread-22 ] INFO : VM Start Action started processing at simulation time: 130.308
+[Thread-23 ] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-23 ] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-22 ] INFO : VM Start Action finished processing at simulation time: 130.308
+[Thread-21 ] INFO : Action executed properly
+[Thread-35 ] INFO : Start enacting of Optimisation Plan at simulation time: 140.0
+[Thread-46 ] INFO : Start enacting of Optimisation Plan at simulation time: 150.0
+[Thread-57 ] INFO : Start enacting of Optimisation Plan at simulation time: 160.0
+[Thread-68 ] INFO : Start enacting of Optimisation Plan at simulation time: 170.0
+[Thread-79 ] INFO : Start enacting of Optimisation Plan at simulation time: 180.0
+[Thread-90 ] INFO : Start enacting of Optimisation Plan at simulation time: 190.0
+[Thread-101] INFO : Start enacting of Optimisation Plan at simulation time: 200.0
+[Thread-112] INFO : Start enacting of Optimisation Plan at simulation time: 210.0
+[Thread-123] INFO : Start enacting of Optimisation Plan at simulation time: 220.0
+[Thread-134] INFO : Start enacting of Optimisation Plan at simulation time: 230.0
+[Thread-145] INFO : Start enacting of Optimisation Plan at simulation time: 240.0
+[Thread-156] INFO : Start enacting of Optimisation Plan at simulation time: 250.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 252.413
+[Thread-161] INFO : VM Placement started at simulation time: 252.413
+[Thread-161] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-161] INFO : Placing VM VirtualMachine[TRANSIENT] (_UK2T0ITHEeagCbBu1IOgAQ) on Hypervisor 10.157.128.30 (_EpXSoHXDEea428Y7BDZmHg)
+[Thread-161] INFO : VM Placement finished at simulation time: 252.413
+[Thread-161] INFO : VM Start Action started processing at simulation time: 252.413
+[Thread-162] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-162] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-161] INFO : VM Start Action finished processing at simulation time: 252.413
+[Thread-160] INFO : Action executed properly
+[Thread-179] INFO : Start enacting of Optimisation Plan at simulation time: 260.0
+[Thread-200] INFO : Start enacting of Optimisation Plan at simulation time: 270.0
+[Thread-221] INFO : Start enacting of Optimisation Plan at simulation time: 280.0
+[Thread-242] INFO : Start enacting of Optimisation Plan at simulation time: 290.0
+[Thread-263] INFO : Start enacting of Optimisation Plan at simulation time: 300.0
+[Thread-284] INFO : Start enacting of Optimisation Plan at simulation time: 310.0
+[Thread-305] INFO : Start enacting of Optimisation Plan at simulation time: 320.0
+[Thread-326] INFO : Start enacting of Optimisation Plan at simulation time: 330.0
+[Thread-347] INFO : Start enacting of Optimisation Plan at simulation time: 340.0
+[Thread-368] INFO : Start enacting of Optimisation Plan at simulation time: 350.0
+[Thread-389] INFO : Start enacting of Optimisation Plan at simulation time: 360.0
+[Thread-410] INFO : Start enacting of Optimisation Plan at simulation time: 370.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 372.569999
+[Thread-418] INFO : VM Placement started at simulation time: 372.569999
+[Thread-418] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-418] INFO : Placing VM VirtualMachine[TRANSIENT] (_YuF1gITHEeagCbBu1IOgAQ) on Hypervisor 10.157.128.32 (_EpX5sHXDEea428Y7BDZmHg)
+[Thread-418] INFO : VM Placement finished at simulation time: 372.569999
+[Thread-418] INFO : VM Start Action started processing at simulation time: 372.569999
+[Thread-419] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-419] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-418] INFO : VM Start Action finished processing at simulation time: 372.569999
+[Thread-417] INFO : Action executed properly
+[Thread-443] INFO : Start enacting of Optimisation Plan at simulation time: 380.0
+[Thread-474] INFO : Start enacting of Optimisation Plan at simulation time: 390.0
+[Thread-505] INFO : Start enacting of Optimisation Plan at simulation time: 400.0
+[Thread-536] INFO : Start enacting of Optimisation Plan at simulation time: 410.0
+[Thread-567] INFO : Start enacting of Optimisation Plan at simulation time: 420.0
+[Thread-598] INFO : Start enacting of Optimisation Plan at simulation time: 430.0
+[Thread-629] INFO : Start enacting of Optimisation Plan at simulation time: 440.0
+[Thread-660] INFO : Start enacting of Optimisation Plan at simulation time: 450.0
+[Thread-691] INFO : Start enacting of Optimisation Plan at simulation time: 460.0
+[Thread-722] INFO : Start enacting of Optimisation Plan at simulation time: 470.0
+[Thread-753] INFO : Start enacting of Optimisation Plan at simulation time: 480.0
+[Thread-784] INFO : Start enacting of Optimisation Plan at simulation time: 490.0
+[Thread-815] INFO : Start enacting of Optimisation Plan at simulation time: 500.0
+[Thread-846] INFO : Start enacting of Optimisation Plan at simulation time: 510.0
+[Thread-877] INFO : Start enacting of Optimisation Plan at simulation time: 520.0
+[Thread-908] INFO : Start enacting of Optimisation Plan at simulation time: 530.0
+[Thread-939] INFO : Start enacting of Optimisation Plan at simulation time: 540.0
+[Thread-970] INFO : Start enacting of Optimisation Plan at simulation time: 550.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 554.741
+[Thread-987] INFO : VM Placement started at simulation time: 554.741
+[Thread-987] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-987] INFO : Placing VM VirtualMachine[TRANSIENT] (_hhRiYITHEeagCbBu1IOgAQ) on Hypervisor 10.157.128.32 (_EpX5sHXDEea428Y7BDZmHg)
+[Thread-987] INFO : VM Placement finished at simulation time: 554.741
+[Thread-987] INFO : VM Start Action started processing at simulation time: 554.741
+[Thread-988] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-988] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-987] INFO : VM Start Action finished processing at simulation time: 554.741
+[Thread-986] INFO : Action executed properly
+[Thread-1011] INFO : Start enacting of Optimisation Plan at simulation time: 560.0
+[Thread-1052] INFO : Start enacting of Optimisation Plan at simulation time: 570.0
+[Thread-1093] INFO : Start enacting of Optimisation Plan at simulation time: 580.0
+[Thread-1134] INFO : Start enacting of Optimisation Plan at simulation time: 590.0
+[Thread-1175] INFO : Start enacting of Optimisation Plan at simulation time: 600.0
+[Thread-1216] INFO : Start enacting of Optimisation Plan at simulation time: 610.0
+[Thread-1257] INFO : Start enacting of Optimisation Plan at simulation time: 620.0
+[Thread-1298] INFO : Start enacting of Optimisation Plan at simulation time: 630.0
+[Thread-1339] INFO : Start enacting of Optimisation Plan at simulation time: 640.0
+[Thread-1380] INFO : Start enacting of Optimisation Plan at simulation time: 650.0
+[Thread-1421] INFO : Start enacting of Optimisation Plan at simulation time: 660.0
+[Thread-1462] INFO : Start enacting of Optimisation Plan at simulation time: 670.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 673.022999
+[Thread-1476] INFO : VM Placement started at simulation time: 673.022999
+[Thread-1476] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-1476] INFO : Placing VM VirtualMachine[TRANSIENT] (_p47J0ITHEeagCbBu1IOgAQ) on Hypervisor 10.157.128.31 (_EpXSoXXDEea428Y7BDZmHg)
+[Thread-1476] INFO : VM Placement finished at simulation time: 673.022999
+[Thread-1476] INFO : VM Start Action started processing at simulation time: 673.022999
+[Thread-1477] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-1477] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-1476] INFO : VM Start Action finished processing at simulation time: 673.022999
+[Thread-1475] INFO : Action executed properly
+[Thread-1514] INFO : Start enacting of Optimisation Plan at simulation time: 680.0
+[Thread-1565] INFO : Start enacting of Optimisation Plan at simulation time: 690.0
+[Thread-1616] INFO : Start enacting of Optimisation Plan at simulation time: 700.0
+[Thread-1667] INFO : Start enacting of Optimisation Plan at simulation time: 710.0
+[Thread-1718] INFO : Start enacting of Optimisation Plan at simulation time: 720.0
+[Thread-1769] INFO : Start enacting of Optimisation Plan at simulation time: 730.0
+[Thread-1820] INFO : Start enacting of Optimisation Plan at simulation time: 740.0
+[Thread-1871] INFO : Start enacting of Optimisation Plan at simulation time: 750.0
+[Thread-1922] INFO : Start enacting of Optimisation Plan at simulation time: 760.0
+[Thread-1973] INFO : Start enacting of Optimisation Plan at simulation time: 770.0
+[Thread-2024] INFO : Start enacting of Optimisation Plan at simulation time: 780.0
+[Thread-2075] INFO : Start enacting of Optimisation Plan at simulation time: 790.0
+[Thread-2126] INFO : Start enacting of Optimisation Plan at simulation time: 800.0
+[Thread-2177] INFO : Start enacting of Optimisation Plan at simulation time: 810.0
+[Thread-2228] INFO : Start enacting of Optimisation Plan at simulation time: 820.0
+[Thread-2279] INFO : Start enacting of Optimisation Plan at simulation time: 830.0
+[Thread-2330] INFO : Start enacting of Optimisation Plan at simulation time: 840.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 849.494999
+[Thread-2380] INFO : VM Placement started at simulation time: 849.494999
+[Thread-2380] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-2380] INFO : Placing VM VirtualMachine[TRANSIENT] (_67QCYITHEeagCbBu1IOgAQ) on Hypervisor 10.157.128.31 (_EpXSoXXDEea428Y7BDZmHg)
+[Thread-2380] INFO : VM Placement finished at simulation time: 849.494999
+[Thread-2380] INFO : VM Start Action started processing at simulation time: 849.494999
+[Thread-2381] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-2381] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-2380] INFO : VM Start Action finished processing at simulation time: 849.494999
+[Thread-2379] INFO : Action executed properly
+[Thread-2386] INFO : Start enacting of Optimisation Plan at simulation time: 850.0
+[Thread-2447] INFO : Start enacting of Optimisation Plan at simulation time: 860.0
+[Thread-2508] INFO : Start enacting of Optimisation Plan at simulation time: 870.0
+[Thread-2569] INFO : Start enacting of Optimisation Plan at simulation time: 880.0
+[Thread-2630] INFO : Start enacting of Optimisation Plan at simulation time: 890.0
+[Thread-2691] INFO : Start enacting of Optimisation Plan at simulation time: 900.0
+[Thread-2752] INFO : Start enacting of Optimisation Plan at simulation time: 910.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 915.113
+[Thread-2785] INFO : VM Placement started at simulation time: 915.113
+[Thread-2785] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-2785] INFO : Placing VM VirtualMachine[TRANSIENT] (_B-qawITIEeagCbBu1IOgAQ) on Hypervisor 10.157.128.30 (_EpXSoHXDEea428Y7BDZmHg)
+[Thread-2785] INFO : VM Placement finished at simulation time: 915.113
+[Thread-2785] INFO : VM Start Action started processing at simulation time: 915.113
+[Thread-2786] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-2786] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-2785] INFO : VM Start Action finished processing at simulation time: 915.113
+[Thread-2784] INFO : Action executed properly
+[Thread-2822] INFO : Start enacting of Optimisation Plan at simulation time: 920.0
+[Thread-2893] INFO : Start enacting of Optimisation Plan at simulation time: 930.0
+[Thread-2964] INFO : Start enacting of Optimisation Plan at simulation time: 940.0
+[Thread-3035] INFO : Start enacting of Optimisation Plan at simulation time: 950.0
+[Thread-3106] INFO : Start enacting of Optimisation Plan at simulation time: 960.0
+[Thread-3177] INFO : Start enacting of Optimisation Plan at simulation time: 970.0
+[Thread-3248] INFO : Start enacting of Optimisation Plan at simulation time: 980.0
+[Thread-3319] INFO : Start enacting of Optimisation Plan at simulation time: 990.0
+[Thread-3390] INFO : Start enacting of Optimisation Plan at simulation time: 1000.0
+[Thread-3461] INFO : Start enacting of Optimisation Plan at simulation time: 1010.0
+[Thread-3532] INFO : Start enacting of Optimisation Plan at simulation time: 1020.0
+[Thread-3603] INFO : Start enacting of Optimisation Plan at simulation time: 1030.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 1033.239
+[Thread-3628] INFO : VM Placement started at simulation time: 1033.239
+[Thread-3628] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-3628] INFO : Placing VM VirtualMachine[TRANSIENT] (_QahAUITIEeagCbBu1IOgAQ) on Hypervisor 10.157.128.31 (_EpXSoXXDEea428Y7BDZmHg)
+[Thread-3628] INFO : VM Placement finished at simulation time: 1033.239
+[Thread-3628] INFO : VM Start Action started processing at simulation time: 1033.239
+[Thread-3629] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-3629] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-3628] INFO : VM Start Action finished processing at simulation time: 1033.239
+[Thread-3627] INFO : Action executed properly
+[Thread-3685] INFO : Start enacting of Optimisation Plan at simulation time: 1040.0
+[Thread-3685] INFO : VM Migration started at simulation time: 1040.0
+[Thread-3685] INFO : Starting migrateVM controller completion
+[Thread-3685] INFO : Adding controllers for VM migration
+[Thread-3685] INFO : Adding VM controllers
+[Thread-3685] INFO : Added VM controller: mappedmigrateVm
+[Thread-3686] INFO : Start executing the controller scenario ('migrateVm')!
+[Thread-3686] INFO : Execution of the controller scenario ('migrateVm') finished!
+[Thread-3685] INFO : Migrated VM: 109.231.122.252-_QahAUITIEeagCbBu1IOgAQfrom node: 10.157.128.31 to node: 10.157.128.32
+[Thread-3685] INFO : Migrate request was executed properly
+[Thread-3685] INFO : VM Migration finished at simulation time: 1041.495764
+[Thread-3767] INFO : Start enacting of Optimisation Plan at simulation time: 1050.0
+[Thread-3848] INFO : Start enacting of Optimisation Plan at simulation time: 1060.0
+[Thread-3929] INFO : Start enacting of Optimisation Plan at simulation time: 1070.0
+[Thread-4010] INFO : Start enacting of Optimisation Plan at simulation time: 1080.0
+[Thread-4091] INFO : Start enacting of Optimisation Plan at simulation time: 1090.0
+[Thread-7  ] INFO : Start execution of StartApplicationRequest at simulation time: 1094.911
+[Thread-4133] INFO : VM Placement started at simulation time: 1094.911
+[Thread-4133] INFO : Guard Condition of "CopyingOfVMIsImageRequired" evaluated to false. The transition is not taken.
+[Thread-4133] INFO : Placing VM VirtualMachine[TRANSIENT] (_ZCF6IITIEeagCbBu1IOgAQ) on Hypervisor 10.157.128.30 (_EpXSoHXDEea428Y7BDZmHg)
+[Thread-4133] INFO : VM Placement finished at simulation time: 1094.911
+[Thread-4133] INFO : VM Start Action started processing at simulation time: 1094.911
+[Thread-4134] INFO : Start executing the controller scenario ('IssueDelayDemand')!
+[Thread-4134] INFO : Execution of the controller scenario ('IssueDelayDemand') finished!
+[Thread-4133] INFO : VM Start Action finished processing at simulation time: 1094.911
+[Thread-4132] INFO : Action executed properly
+[Thread-4182] INFO : Start enacting of Optimisation Plan at simulation time: 1100.0
+[Thread-4273] INFO : Start enacting of Optimisation Plan at simulation time: 1110.0
+[Thread-4364] INFO : Start enacting of Optimisation Plan at simulation time: 1120.0
+[Thread-4455] INFO : Start enacting of Optimisation Plan at simulation time: 1130.0
+[Thread-4546] INFO : Start enacting of Optimisation Plan at simulation time: 1140.0
+[Worker-4  ] INFO : Simulation stop requested!
+[Worker-4  ] INFO : Simulation took 1141.413 simulated time units
+[Worker-4  ] INFO : Simulation terminated. Took 596.38613817 real time seconds.
+[Worker-4  ] INFO : finished job: org.palladiosimulator.simulizar.launcher.jobs.PCMStartInterpretationJob@85a662c
+[Worker-4  ] INFO : Task Opening 'org.palladiosimulator.temporary'. completed in 613.261992595 seconds
+[Worker-4  ] INFO : Task Closing 'org.palladiosimulator.temporary'. completed in 0.071531096 seconds
+[Worker-4  ] INFO : Task completed in 0.010993031 seconds
+[Worker-4  ] FATAL: Workflow terminated unexpectedly
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:229)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:133)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:867)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1835)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.palladiosimulator.analyzer.workflow.jobs.CreatePluginProjectJob.deleteProject(CreatePluginProjectJob.java:154)
+	at org.palladiosimulator.analyzer.workflow.jobs.CreatePluginProjectJob.cleanup(CreatePluginProjectJob.java:134)
+	at de.uka.ipd.sdq.workflow.jobs.AbstractCompositeJob.cleanup(AbstractCompositeJob.java:97)
+	at de.uka.ipd.sdq.workflow.jobs.SequentialJob.cleanup(SequentialJob.java:181)
+	at de.uka.ipd.sdq.workflow.jobs.SequentialJob.executeWithImmediateCleanUp(SequentialJob.java:157)
+	at de.uka.ipd.sdq.workflow.jobs.SequentialJob.execute(SequentialJob.java:77)
+	at de.uka.ipd.sdq.workflow.BlackboardBasedWorkflow.execute(BlackboardBasedWorkflow.java:82)
+	at de.uka.ipd.sdq.workflow.Workflow.run(Workflow.java:90)
+	at de.uka.ipd.sdq.workflow.launchconfig.AbstractWorkflowBasedLaunchConfigurationDelegate.createAndRunWorkflow(AbstractWorkflowBasedLaunchConfigurationDelegate.java:244)
+	at de.uka.ipd.sdq.workflow.launchconfig.AbstractWorkflowBasedLaunchConfigurationDelegate.launch(AbstractWorkflowBasedLaunchConfigurationDelegate.java:91)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+[Worker-4  ] INFO : Cleaning up...

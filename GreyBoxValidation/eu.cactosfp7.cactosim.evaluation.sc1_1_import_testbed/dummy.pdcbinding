@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binding:PowerModelBindingRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:binding="http://www.cactosfp7.eu/PhysicalDCModel/Power/Binding/1.0">
+  <powerModelBindings id="_JHDwEGoJEeak6YrYQno6aw" name="NullPowerModelBinding">
+    <powerModel href="dummy.pdcspec#_6RDlIGoIEeak6YrYQno6aw"/>
+  </powerModelBindings>
+</binding:PowerModelBindingRepository>

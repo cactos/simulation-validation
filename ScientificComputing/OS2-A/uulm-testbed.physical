@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:PhysicalDCModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.cactosfp7.eu/PhysicalDCModel/Core/1.0" id="_c1CmEFmAEeaju5rldUMYJw">
+  <racks id="_c1G3h1mAEeaju5rldUMYJw" name="rack01" powerSupplies="_c1TEwFmAEeaju5rldUMYJw _c1TEwVmAEeaju5rldUMYJw _c1TEwlmAEeaju5rldUMYJw _c1TEw1mAEeaju5rldUMYJw _c1TEyFmAEeaju5rldUMYJw _c1TEyVmAEeaju5rldUMYJw _c1TEzlmAEeaju5rldUMYJw _c1TEz1mAEeaju5rldUMYJw">
+    <nodes xsi:type="core:ComputeNode" id="_c1G3iVmAEeaju5rldUMYJw" name="computenode02" powerProvidingEntities="_c1TEwFmAEeaju5rldUMYJw _c1TEwVmAEeaju5rldUMYJw" powerConsumingEntities="_c1G3ilmAEeaju5rldUMYJw _c1G3jVmAEeaju5rldUMYJw _c1G30FmAEeaju5rldUMYJw" networkInterconnects="_c1G3iFmAEeaju5rldUMYJw">
+      <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w02"/>
+      <cpuSpecifications id="_c1G3ilmAEeaju5rldUMYJw" name="computenode02" powerProvidingEntities="_c1G3iVmAEeaju5rldUMYJw" frequency="3068.156MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w02"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G30FmAEeaju5rldUMYJw" name="computenode02" powerProvidingEntities="_c1G3iVmAEeaju5rldUMYJw" size="190.0GB" readDelay="0.0019230769230769232s" writeDelay="0.003875968992248062s">
+        <readBandwidth value="4.36207616E9bit/s"/>
+        <writeBandwidth value="2.164260864E9bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3jVmAEeaju5rldUMYJw" name="computenode02" powerProvidingEntities="_c1G3iVmAEeaju5rldUMYJw" size="128860.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G36FmAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3klmAEeaju5rldUMYJw" name="computenode05" powerProvidingEntities="_c1TEwlmAEeaju5rldUMYJw _c1TEw1mAEeaju5rldUMYJw" powerConsumingEntities="_c1G3k1mAEeaju5rldUMYJw _c1G3llmAEeaju5rldUMYJw _c1G301mAEeaju5rldUMYJw" networkInterconnects="_c1G3kVmAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3k1mAEeaju5rldUMYJw" name="computenode05" powerProvidingEntities="_c1G3klmAEeaju5rldUMYJw" frequency="3009.6009999999997MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w05"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G301mAEeaju5rldUMYJw" name="computenode05" powerProvidingEntities="_c1G3klmAEeaju5rldUMYJw" size="190.0GB" readDelay="0.004484304932735425s" writeDelay="0.01675041876046901s">
+        <readBandwidth value="1.870659584E9bit/s"/>
+        <writeBandwidth value="5.007998976E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3llmAEeaju5rldUMYJw" name="computenode05" powerProvidingEntities="_c1G3klmAEeaju5rldUMYJw" size="64321.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G36VmAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3m1mAEeaju5rldUMYJw" name="computenode08" powerProvidingEntities="_c1TEwlmAEeaju5rldUMYJw _c1TEw1mAEeaju5rldUMYJw" powerConsumingEntities="_c1G3nFmAEeaju5rldUMYJw _c1G3n1mAEeaju5rldUMYJw _c1G31lmAEeaju5rldUMYJw" networkInterconnects="_c1G3mlmAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3nFmAEeaju5rldUMYJw" name="computenode08" powerProvidingEntities="_c1G3m1mAEeaju5rldUMYJw" frequency="1367.437MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w08"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G31lmAEeaju5rldUMYJw" name="computenode08" powerProvidingEntities="_c1G3m1mAEeaju5rldUMYJw" readDelay="0.008474576271186439s" writeDelay="0.010384215991692626s">
+        <readBandwidth value="9.89855744E8bit/s"/>
+        <writeBandwidth value="8.078229503999999E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3n1mAEeaju5rldUMYJw" name="computenode08" powerProvidingEntities="_c1G3m1mAEeaju5rldUMYJw" size="64321.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G36lmAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3pFmAEeaju5rldUMYJw" name="computenode11" powerProvidingEntities="_c1TEyFmAEeaju5rldUMYJw _c1TEyVmAEeaju5rldUMYJw" powerConsumingEntities="_c1G3pVmAEeaju5rldUMYJw _c1G3qFmAEeaju5rldUMYJw _c1G32VmAEeaju5rldUMYJw" networkInterconnects="_c1G3o1mAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3pVmAEeaju5rldUMYJw" name="computenode11" powerProvidingEntities="_c1G3pFmAEeaju5rldUMYJw" frequency="2983.7029999999995MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w11"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G32VmAEeaju5rldUMYJw" name="computenode11" powerProvidingEntities="_c1G3pFmAEeaju5rldUMYJw" size="190.0GB" readDelay="0.0025906735751295333s" writeDelay="0.019569471624266144s">
+        <readBandwidth value="3.238002688E9bit/s"/>
+        <writeBandwidth value="4.2865786879999995E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3qFmAEeaju5rldUMYJw" name="computenode11" powerProvidingEntities="_c1G3pFmAEeaju5rldUMYJw" size="128831.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G361mAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3rVmAEeaju5rldUMYJw" name="computenode12" powerProvidingEntities="_c1TEyFmAEeaju5rldUMYJw _c1TEyVmAEeaju5rldUMYJw" powerConsumingEntities="_c1G3rlmAEeaju5rldUMYJw _c1G3sVmAEeaju5rldUMYJw _c1G33FmAEeaju5rldUMYJw" networkInterconnects="_c1G3rFmAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3rlmAEeaju5rldUMYJw" name="computenode12" powerProvidingEntities="_c1G3rVmAEeaju5rldUMYJw" frequency="3239.843MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w12"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G33FmAEeaju5rldUMYJw" name="computenode12" powerProvidingEntities="_c1G3rVmAEeaju5rldUMYJw" size="866.0GB" readDelay="0.009259259259259259s" writeDelay="0.056179775280898875s">
+        <readBandwidth value="9.05969664E8bit/s"/>
+        <writeBandwidth value="1.4931722239999998E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3sVmAEeaju5rldUMYJw" name="computenode12" powerProvidingEntities="_c1G3rVmAEeaju5rldUMYJw" size="128833.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G37FmAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3tlmAEeaju5rldUMYJw" name="computenode14" powerProvidingEntities="_c1TEzlmAEeaju5rldUMYJw _c1TEz1mAEeaju5rldUMYJw" powerConsumingEntities="_c1G3t1mAEeaju5rldUMYJw _c1G3ulmAEeaju5rldUMYJw _c1G331mAEeaju5rldUMYJw" networkInterconnects="_c1G3tVmAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3t1mAEeaju5rldUMYJw" name="computenode14" powerProvidingEntities="_c1G3tlmAEeaju5rldUMYJw" frequency="3122.1319999999996MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w14"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G331mAEeaju5rldUMYJw" name="computenode14" powerProvidingEntities="_c1G3tlmAEeaju5rldUMYJw" readDelay="0.008547008547008548s" writeDelay="0.010330578512396695s">
+        <readBandwidth value="9.81467136E8bit/s"/>
+        <writeBandwidth value="8.120172543999999E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3ulmAEeaju5rldUMYJw" name="computenode14" powerProvidingEntities="_c1G3tlmAEeaju5rldUMYJw" size="128833.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G37VmAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3v1mAEeaju5rldUMYJw" name="computenode15" powerProvidingEntities="_c1TEzlmAEeaju5rldUMYJw _c1TEz1mAEeaju5rldUMYJw" powerConsumingEntities="_c1G3wFmAEeaju5rldUMYJw _c1G3w1mAEeaju5rldUMYJw _c1G34lmAEeaju5rldUMYJw" networkInterconnects="_c1G3vlmAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3wFmAEeaju5rldUMYJw" name="computenode15" powerProvidingEntities="_c1G3v1mAEeaju5rldUMYJw" frequency="1765.6639999999998MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w15"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G34lmAEeaju5rldUMYJw" name="computenode15" powerProvidingEntities="_c1G3v1mAEeaju5rldUMYJw" readDelay="0.008547008547008548s" writeDelay="0.01015228426395939s">
+        <readBandwidth value="9.81467136E8bit/s"/>
+        <writeBandwidth value="8.26277888E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3w1mAEeaju5rldUMYJw" name="computenode15" powerProvidingEntities="_c1G3v1mAEeaju5rldUMYJw" size="128833.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G37lmAEeaju5rldUMYJw"/>
+    </nodes>
+    <nodes xsi:type="core:ComputeNode" id="_c1G3yFmAEeaju5rldUMYJw" name="computenode16" powerProvidingEntities="_c1TEzlmAEeaju5rldUMYJw _c1TEz1mAEeaju5rldUMYJw" powerConsumingEntities="_c1G3yVmAEeaju5rldUMYJw _c1G3zFmAEeaju5rldUMYJw _c1G35VmAEeaju5rldUMYJw" networkInterconnects="_c1G3x1mAEeaju5rldUMYJw">
+      <cpuSpecifications id="_c1G3yVmAEeaju5rldUMYJw" name="computenode16" powerProvidingEntities="_c1G3yFmAEeaju5rldUMYJw" frequency="2399.8199999999997MHz" numberOfCores="32">
+        <powerModelBinding href="uulm-testbed.pdcbinding#_Lj2YwOn7EeWDO84ZsNy36w16"/>
+        <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+      </cpuSpecifications>
+      <storageSpecifications id="_c1G35VmAEeaju5rldUMYJw" name="computenode16" powerProvidingEntities="_c1G3yFmAEeaju5rldUMYJw" readDelay="0.008474576271186439s" writeDelay="0.010416666666666664s">
+        <readBandwidth value="9.89855744E8bit/s"/>
+        <writeBandwidth value="8.05306368E8bit/s"/>
+      </storageSpecifications>
+      <memorySpecifications id="_c1G3zFmAEeaju5rldUMYJw" name="computenode16" powerProvidingEntities="_c1G3yFmAEeaju5rldUMYJw" size="128833.0MB"/>
+      <hypervisor href="uulm-testbed.logical#_c1G371mAEeaju5rldUMYJw"/>
+    </nodes>
+  </racks>
+  <powerSupplies id="_c1TEwFmAEeaju5rldUMYJw" name="GUOD1420000144" powerConsumingEntities="_c1G3iVmAEeaju5rldUMYJw" suppliablePeakPower="1600.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEwVmAEeaju5rldUMYJw" name="GUOD1420000145" powerConsumingEntities="_c1G3iVmAEeaju5rldUMYJw" suppliablePeakPower="1600.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEwlmAEeaju5rldUMYJw" name="G18593D1136001565" powerConsumingEntities="_c1G3klmAEeaju5rldUMYJw _c1G3m1mAEeaju5rldUMYJw" suppliablePeakPower="1200.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEw1mAEeaju5rldUMYJw" name="G18593D1207003734" powerConsumingEntities="_c1G3klmAEeaju5rldUMYJw _c1G3m1mAEeaju5rldUMYJw" suppliablePeakPower="1200.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEyFmAEeaju5rldUMYJw" name="G18593D1207003034" powerConsumingEntities="_c1G3pFmAEeaju5rldUMYJw _c1G3rVmAEeaju5rldUMYJw" suppliablePeakPower="1200.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEyVmAEeaju5rldUMYJw" name="G18593D1207003032" powerConsumingEntities="_c1G3pFmAEeaju5rldUMYJw _c1G3rVmAEeaju5rldUMYJw" suppliablePeakPower="1200.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEzlmAEeaju5rldUMYJw" name="G18593D1207002510" powerConsumingEntities="_c1G3tlmAEeaju5rldUMYJw _c1G3v1mAEeaju5rldUMYJw _c1G3yFmAEeaju5rldUMYJw" suppliablePeakPower="1200.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <powerSupplies id="_c1TEz1mAEeaju5rldUMYJw" name="G18593D1207003073" powerConsumingEntities="_c1G3tlmAEeaju5rldUMYJw _c1G3v1mAEeaju5rldUMYJw _c1G3yFmAEeaju5rldUMYJw" suppliablePeakPower="1200.0W" hostedIn="_c1G3h1mAEeaju5rldUMYJw"/>
+  <networkInterconnects id="_c1G3iFmAEeaju5rldUMYJw" name="computenode02" connectedEntities="_c1G3iVmAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3kVmAEeaju5rldUMYJw" name="computenode05" connectedEntities="_c1G3klmAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3mlmAEeaju5rldUMYJw" name="computenode08" connectedEntities="_c1G3m1mAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3o1mAEeaju5rldUMYJw" name="computenode11" connectedEntities="_c1G3pFmAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3rFmAEeaju5rldUMYJw" name="computenode12" connectedEntities="_c1G3rVmAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3tVmAEeaju5rldUMYJw" name="computenode14" connectedEntities="_c1G3tlmAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3vlmAEeaju5rldUMYJw" name="computenode15" connectedEntities="_c1G3v1mAEeaju5rldUMYJw">
+    <bandwidth value="8.388608E9bit/s"/>
+  </networkInterconnects>
+  <networkInterconnects id="_c1G3x1mAEeaju5rldUMYJw" name="computenode16" connectedEntities="_c1G3yFmAEeaju5rldUMYJw"/>
+</core:PhysicalDCModel>

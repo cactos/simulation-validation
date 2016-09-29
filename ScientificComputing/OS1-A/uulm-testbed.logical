@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:LogicalDCModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.cactosfp7.eu/LogicalDCModel/Application/1.0" xmlns:core="http://www.cactosfp7.eu/LogicalDCModel/Core/1.0" xmlns:core_1="http://www.cactosfp7.eu/PhysicalDCModel/Core/1.0" xmlns:tools.descartes.dlim="http://descartes.tools/dlim/0.1" id="_c1DNIlmAEeaju5rldUMYJw" cyclicOptimizationInterval="60.0s">
+  <hypervisors id="_c1G36FmAEeaju5rldUMYJw" rootVolume="_16Vv8FoXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3iVmAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G36VmAEeaju5rldUMYJw" rootVolume="_16aocFoXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3klmAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G36lmAEeaju5rldUMYJw" rootVolume="_16aocVoXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3m1mAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G361mAEeaju5rldUMYJw" rootVolume="_16aocloXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3pFmAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G37FmAEeaju5rldUMYJw" rootVolume="_16aoc1oXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3rVmAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G37VmAEeaju5rldUMYJw" rootVolume="_16aodFoXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3tlmAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G37lmAEeaju5rldUMYJw" rootVolume="_16aodVoXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3v1mAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <hypervisors id="_c1G371mAEeaju5rldUMYJw" rootVolume="_16aodloXEeaDQpP02j-1Ag">
+    <hypervisorType href="uulm-testbed.hypervisor#_c1G3hVmAEeaju5rldUMYJw"/>
+    <node href="uulm-testbed.physical#_c1G3yFmAEeaju5rldUMYJw"/>
+  </hypervisors>
+  <volumesAndImages xsi:type="core:VMImage" id="_K_WhcFmBEeaJ_pcghEdUYg" name="7f93bbd5-85a7-46d6-9c23-de935764e528" capacity="80.0MB"/>
+  <volumesAndImages id="_16Vv8FoXEeaDQpP02j-1Ag" name="Root Volume of computenode02" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G30FmAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aocFoXEeaDQpP02j-1Ag" name="Root Volume of computenode05" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G301mAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aocVoXEeaDQpP02j-1Ag" name="Root Volume of computenode08" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G31lmAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aocloXEeaDQpP02j-1Ag" name="Root Volume of computenode11" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G32VmAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aoc1oXEeaDQpP02j-1Ag" name="Root Volume of computenode12" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G33FmAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aodFoXEeaDQpP02j-1Ag" name="Root Volume of computenode14" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G331mAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aodVoXEeaDQpP02j-1Ag" name="Root Volume of computenode15" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G34lmAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16aodloXEeaDQpP02j-1Ag" name="Root Volume of computenode16" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_c1G35VmAEeaju5rldUMYJw"/>
+  </volumesAndImages>
+  <volumesAndImages xsi:type="core:VMImage" id="_njAzIF77EeawSbbeT49i0w" name="87945f45-c4fc-45bb-b5a2-9aa7be31a036" capacity="81920.0MB"/>
+  <volumesAndImages xsi:type="core:VMImage" id="_n-t3sF77EeawSbbeT49i0w" name="dd914cc1-ace5-4ab7-af61-e7eade914446" capacity="81920.0MB"/>
+  <applicationTemplates xsi:type="application:BlackBoxApplicationTemplate" id="_naiMkF77EeawSbbeT49i0w" name="instance-0000186e">
+    <blackBoxVMImageBehaviour id="_nakBwF77EeawSbbeT49i0w" vmImage="_njAzIF77EeawSbbeT49i0w" defaultFlavour="_n0WawF77EeawSbbeT49i0w">
+      <blackBoxWorkloads id="_nafwUF77EeawSbbeT49i0w" name="x86_64" resourceDemandUnit="ACED0005737200226A617661782E6D6561737572652E756E69742E5472616E73666F726D6564556E697400000000000000010200024C000B5F706172656E74556E69747400194C6A617661782F6D6561737572652F756E69742F556E69743B4C000D5F746F506172656E74556E69747400274C6A617661782F6D6561737572652F636F6E7665727465722F556E6974436F6E7665727465723B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD52670200007870737200206A617661782E6D6561737572652E756E69742E416C7465726E617465556E697400000000000000010200024C00075F706172656E7471007E00014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B7871007E00037372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7871007E000300000000757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000001737200266A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E7400000000000000010200034900045F706F774900055F726F6F744C00055F756E697471007E00017870FFFFFFFF000000017372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C71007E00077871007E000474000173740002487A737200296A617661782E6D6561737572652E636F6E7665727465722E526174696F6E616C436F6E76657274657200000000000000010200024A00095F6469766964656E644A00085F64697669736F72787200256A617661782E6D6561737572652E636F6E7665727465722E556E6974436F6E7665727465726CDC1696D1CC8845020000787000000000000F42400000000000000001">
+        <resourceDemandRates terminateAfterTime="1783.0" terminateAfterLoops="1">
+          <sequenceFunctionContainers duration="0.678">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.55">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.55" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.71">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.71">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="60.156">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.054">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.99">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.99">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.98">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.98" functionOutputAtEnd="0.61">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.058">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.61" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="40.106">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.99">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.99" functionOutputAtEnd="0.81">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.81" functionOutputAtEnd="0.91">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.91" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95" functionOutputAtEnd="0.96">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.96" functionOutputAtEnd="0.85">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.85" functionOutputAtEnd="0.8">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.065">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.8" functionOutputAtEnd="0.61">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.063">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.61" functionOutputAtEnd="0.54">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.54">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="40.106">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95" functionOutputAtEnd="0.76">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.76">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="140.394">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.51">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.51" functionOutputAtEnd="0.93">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.93" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.048">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.054">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95" functionOutputAtEnd="0.98">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.049">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.98" functionOutputAtEnd="0.94">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.94" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.049">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95" functionOutputAtEnd="0.97">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.97" functionOutputAtEnd="0.3">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.064">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.3" functionOutputAtEnd="0.33">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.107">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.33" functionOutputAtEnd="0.36">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.36" functionOutputAtEnd="0.35">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="0.35">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.35">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="220.602">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.18">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.18" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.066">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.41">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.41">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.048">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95" functionOutputAtEnd="0.94">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="40.096">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="0.94">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.058">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.94" functionOutputAtEnd="0.96">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.96" functionOutputAtEnd="0.95">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.95" functionOutputAtEnd="0.91">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.91" functionOutputAtEnd="0.97">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="0.97">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.97" functionOutputAtEnd="0.9">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.9">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.55">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.55" functionOutputAtEnd="0.57">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.57" functionOutputAtEnd="0.93">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.93" functionOutputAtEnd="0.62">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.066">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.62" functionOutputAtEnd="0.23">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.23" functionOutputAtEnd="0.57">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.57" functionOutputAtEnd="0.6">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.064">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.6" functionOutputAtEnd="0.89">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.89" functionOutputAtEnd="0.65">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.048">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.65" functionOutputAtEnd="0.91">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="3068.156"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+        </resourceDemandRates>
+        <onResource xsi:type="core_1:ProcessingUnitSpecification" href="uulm-testbed.physical#_c1G3ilmAEeaju5rldUMYJw"/>
+      </blackBoxWorkloads>
+      <blackBoxWorkloads id="_nagXYF77EeawSbbeT49i0w" name="HDD Workload" resourceDemandUnit="ACED0005737200226A617661782E6D6561737572652E756E69742E5472616E73666F726D6564556E697400000000000000010200024C000B5F706172656E74556E69747400194C6A617661782F6D6561737572652F756E69742F556E69743B4C000D5F746F506172656E74556E69747400274C6A617661782F6D6561737572652F636F6E7665727465722F556E6974436F6E7665727465723B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD526702000078707372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7871007E000341017ACE757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000002737200266A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E7400000000000000010200034900045F706F774900055F726F6F744C00055F756E697471007E0001787000000001000000017371007E0000737200206A617661782E6D6561737572652E756E69742E416C7465726E617465556E697400000000000000010200024C00075F706172656E7471007E00014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B7871007E00037371007E0006000000007571007E000900000000740003626974737200296A617661782E6D6561737572652E636F6E7665727465722E526174696F6E616C436F6E76657274657200000000000000010200024A00095F6469766964656E644A00085F64697669736F72787200256A617661782E6D6561737572652E636F6E7665727465722E556E6974436F6E7665727465726CDC1696D1CC88450200007870000000000000000800000000000000017371007E000BFFFFFFFF000000017372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C71007E000F7871007E0004740001737371007E001400000000000F42400000000000000001">
+        <resourceDemandRates terminateAfterTime="1783.0" terminateAfterLoops="1">
+          <sequenceFunctionContainers duration="0.678">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="9.819999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="9.819999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="4.869999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="4.869999999999999" functionOutputAtEnd="0.96">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.96" functionOutputAtEnd="0.52">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.52" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.049">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="32.64999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.054">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="32.64999999999999" functionOutputAtEnd="27.359999999999996">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="27.359999999999996" functionOutputAtEnd="12.589999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="12.589999999999998" functionOutputAtEnd="65.41">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="65.41" functionOutputAtEnd="75.05">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.058">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="75.05" functionOutputAtEnd="77.61999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="77.61999999999999" functionOutputAtEnd="48.25">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="48.25" functionOutputAtEnd="28.689999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="28.689999999999998" functionOutputAtEnd="19.78">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="19.78" functionOutputAtEnd="42.459999999999994">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="42.459999999999994" functionOutputAtEnd="69.56">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="69.56" functionOutputAtEnd="91.60999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="91.60999999999999" functionOutputAtEnd="70.41">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="70.41" functionOutputAtEnd="49.879999999999995">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="49.879999999999995" functionOutputAtEnd="164.23">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="164.23" functionOutputAtEnd="139.8">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.065">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="139.8" functionOutputAtEnd="199.89999999999995">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.063">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="199.89999999999995" functionOutputAtEnd="107.58999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="107.58999999999997" functionOutputAtEnd="0.03">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.054">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.03" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="39.79999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="39.79999999999999" functionOutputAtEnd="139.68999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="139.68999999999997" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="140.394">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="343.49999999999994">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="343.49999999999994" functionOutputAtEnd="101.16">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="101.16" functionOutputAtEnd="87.24999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.048">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="87.24999999999999" functionOutputAtEnd="76.62">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.054">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="76.62" functionOutputAtEnd="64.94999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.049">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="64.94999999999999" functionOutputAtEnd="87.94">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="87.94" functionOutputAtEnd="96.77">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.049">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="96.77" functionOutputAtEnd="73.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="73.0" functionOutputAtEnd="349.9">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.064">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="349.9" functionOutputAtEnd="421.88">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.107">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="421.88" functionOutputAtEnd="407.12999999999994">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="407.12999999999994" functionOutputAtEnd="297.80999999999995">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.056">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="297.80999999999995" functionOutputAtEnd="252.01">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="252.01" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.79">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.79" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="180.49">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="183.67999999999995">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.06">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="183.67999999999995" functionOutputAtEnd="0.009999999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.066">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.009999999999999998" functionOutputAtEnd="463.15">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="463.15" functionOutputAtEnd="0.07">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.07" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.048">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="59.279999999999994">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="59.279999999999994" functionOutputAtEnd="59.669999999999995">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.047">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="59.669999999999995" functionOutputAtEnd="57.05">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.049">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="57.05" functionOutputAtEnd="48.75">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.058">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="48.75" functionOutputAtEnd="51.580000000000005">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.053">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="51.580000000000005" functionOutputAtEnd="45.00999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="45.00999999999999" functionOutputAtEnd="62.239999999999995">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="62.239999999999995" functionOutputAtEnd="53.87">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="53.87" functionOutputAtEnd="52.42999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.051">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="52.42999999999999" functionOutputAtEnd="65.60999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.057">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="65.60999999999999" functionOutputAtEnd="0.26">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.26" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="434.43999999999994">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.05">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="434.43999999999994" functionOutputAtEnd="361.19999999999993">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="361.19999999999993" functionOutputAtEnd="56.92">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.052">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="56.92" functionOutputAtEnd="160.26999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.066">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="160.26999999999998" functionOutputAtEnd="234.91999999999996">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.059">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="234.91999999999996" functionOutputAtEnd="373.93">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.055">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="373.93" functionOutputAtEnd="337.65">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.064">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="337.65" functionOutputAtEnd="111.91999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="111.91999999999999" functionOutputAtEnd="166.35999999999996">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.048">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="166.35999999999996" functionOutputAtEnd="92.51999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+        </resourceDemandRates>
+        <onResource xsi:type="core_1:StorageSpecification" href="uulm-testbed.physical#_c1G30FmAEeaju5rldUMYJw"/>
+      </blackBoxWorkloads>
+    </blackBoxVMImageBehaviour>
+  </applicationTemplates>
+  <applicationTemplates xsi:type="application:BlackBoxApplicationTemplate" id="_n5I0I177EeawSbbeT49i0w" name="instance-0000186f">
+    <blackBoxVMImageBehaviour id="_n5I0JF77EeawSbbeT49i0w" vmImage="_n-t3sF77EeawSbbeT49i0w" defaultFlavour="_oOvQsF77EeawSbbeT49i0w">
+      <blackBoxWorkloads id="_n5I0IV77EeawSbbeT49i0w" name="x86_64" resourceDemandUnit="ACED0005737200226A617661782E6D6561737572652E756E69742E5472616E73666F726D6564556E697400000000000000010200024C000B5F706172656E74556E69747400194C6A617661782F6D6561737572652F756E69742F556E69743B4C000D5F746F506172656E74556E69747400274C6A617661782F6D6561737572652F636F6E7665727465722F556E6974436F6E7665727465723B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD52670200007870737200206A617661782E6D6561737572652E756E69742E416C7465726E617465556E697400000000000000010200024C00075F706172656E7471007E00014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B7871007E00037372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7871007E000300000000757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000001737200266A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E7400000000000000010200034900045F706F774900055F726F6F744C00055F756E697471007E00017870FFFFFFFF000000017372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C71007E00077871007E000474000173740002487A737200296A617661782E6D6561737572652E636F6E7665727465722E526174696F6E616C436F6E76657274657200000000000000010200024A00095F6469766964656E644A00085F64697669736F72787200256A617661782E6D6561737572652E636F6E7665727465722E556E6974436F6E7665727465726CDC1696D1CC8845020000787000000000000F42400000000000000001">
+        <resourceDemandRates terminateAfterTime="2397.0" terminateAfterLoops="1">
+          <sequenceFunctionContainers duration="20.121">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.1">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.1" functionOutputAtEnd="0.19">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.102">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.19">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="60.347">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.124">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.99">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.111">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.99">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="2235.9">
+            <function xsi:type="tools.descartes.dlim:Constant" constant="1.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1765.6639999999998"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+        </resourceDemandRates>
+        <onResource xsi:type="core_1:ProcessingUnitSpecification" href="uulm-testbed.physical#_c1G3wFmAEeaju5rldUMYJw"/>
+      </blackBoxWorkloads>
+      <blackBoxWorkloads id="_n5I0Il77EeawSbbeT49i0w" name="HDD Workload" resourceDemandUnit="ACED0005737200226A617661782E6D6561737572652E756E69742E5472616E73666F726D6564556E697400000000000000010200024C000B5F706172656E74556E69747400194C6A617661782F6D6561737572652F756E69742F556E69743B4C000D5F746F506172656E74556E69747400274C6A617661782F6D6561737572652F636F6E7665727465722F556E6974436F6E7665727465723B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD526702000078707372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7871007E000341017ACE757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000002737200266A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E7400000000000000010200034900045F706F774900055F726F6F744C00055F756E697471007E0001787000000001000000017371007E0000737200206A617661782E6D6561737572652E756E69742E416C7465726E617465556E697400000000000000010200024C00075F706172656E7471007E00014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B7871007E00037371007E0006000000007571007E000900000000740003626974737200296A617661782E6D6561737572652E636F6E7665727465722E526174696F6E616C436F6E76657274657200000000000000010200024A00095F6469766964656E644A00085F64697669736F72787200256A617661782E6D6561737572652E636F6E7665727465722E556E6974436F6E7665727465726CDC1696D1CC88450200007870000000000000000800000000000000017371007E000BFFFFFFFF000000017372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C71007E000F7871007E0004740001737371007E001400000000000F42400000000000000001">
+        <resourceDemandRates terminateAfterTime="2397.0" terminateAfterLoops="1">
+          <sequenceFunctionContainers duration="20.121">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.51">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.51" functionOutputAtEnd="5.169999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.102">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="5.169999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.113">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.122">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.03">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.03" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.124">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.53">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.111">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.53" functionOutputAtEnd="0.009999999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.105">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.009999999999999998" functionOutputAtEnd="7.039999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.108">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="7.039999999999999" functionOutputAtEnd="0.009999999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.104">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.009999999999999998" functionOutputAtEnd="4.059999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.111">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="4.059999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.121">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.27">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.107">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.27" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="40.227">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.131">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="4.039999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.131">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="4.039999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.134">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.019999999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.104">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.019999999999999997" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.098">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="3.8099999999999996">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.118">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="3.8099999999999996" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="201.162">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.106">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.4099999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.114">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.4099999999999997" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="5.629999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.142">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="5.629999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.141">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.11">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.27">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.109">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.27" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.108">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="8.879999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.098">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="8.879999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="60.33">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.104">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="4.24">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.107">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="4.24" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.4099999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.103">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.4099999999999997" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="100.55">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.91">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="11.099999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.128">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="11.099999999999998" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.108">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.4099999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.108">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.4099999999999997" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="101.66">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.109">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="8.879999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.109">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="8.879999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.099">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.27">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="21.061">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.27" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="281.761">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="8.879999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.118">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="8.879999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.106">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.27">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.2">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.27" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.106">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="9.86">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.111">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="9.86" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="140.854">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.118">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="3.8099999999999996">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.108">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="3.8099999999999996" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.148">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.27">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.117">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.27" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.161">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="8.879999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.106">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="8.879999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.147">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.4099999999999997">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.099">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.4099999999999997" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.119">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="2.54">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.099">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="2.54" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.106">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.103">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="1.27">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.129">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.27" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.096">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="5.109999999999999">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.142">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="5.109999999999999" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.123">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.11">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.112">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.11" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.104">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtEnd="0.009999999999999998">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="20.149">
+            <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.009999999999999998" functionOutputAtEnd="0.0">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+          <sequenceFunctionContainers duration="140.847">
+            <function xsi:type="tools.descartes.dlim:Constant">
+              <combine operator="MULT">
+                <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+              </combine>
+            </function>
+          </sequenceFunctionContainers>
+        </resourceDemandRates>
+        <onResource xsi:type="core_1:StorageSpecification" href="uulm-testbed.physical#_c1G34lmAEeaju5rldUMYJw"/>
+      </blackBoxWorkloads>
+    </blackBoxVMImageBehaviour>
+  </applicationTemplates>
+  <flavours id="_n0WawF77EeawSbbeT49i0w" name="x86_64 1xVCPU (8192.0 &#xb1; 4.5E-13) MB RAM (81920.0 &#xb1; 7.3E-12) MB HDD" sizeRam="8192.0MB" sizeStorage="81920.0MB">
+    <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+  </flavours>
+  <flavours id="_oOvQsF77EeawSbbeT49i0w" name="x86_64 1xVCPU (7985.0 &#xb1; 4.5E-13) MB RAM (81920.0 &#xb1; 7.3E-12) MB HDD" sizeRam="7985.0MB" sizeStorage="81920.0MB">
+    <architectureType href="uulm-testbed.architecturetype#_c1G3hlmAEeaju5rldUMYJw"/>
+  </flavours>
+</core:LogicalDCModel>
